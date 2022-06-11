@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import CustomLink from "../CustomLink/CustomLink";
 
@@ -71,8 +70,10 @@ const Navbar = () => {
                 <img className="w-24" src={logo} alt="" />
               </CustomLink>
               <div className="mt-2">
-                <h4 className="font-semibold text-secondary">Masterkey</h4>
-                <p>Technology</p>
+                <h4 className="font-semibold text-secondary uppercase">
+                  Masterkey
+                </h4>
+                <p className="text-xs uppercase">Technology</p>
               </div>
             </div>
           </div>
