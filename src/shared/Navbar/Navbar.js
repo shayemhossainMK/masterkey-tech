@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
+import CustomLink from "../CustomLink/CustomLink";
 
 const Navbar = () => {
   return (
@@ -30,7 +31,7 @@ const Navbar = () => {
                 class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <Link to="/">Home</Link>
+                  <CustomLink to="/">Home</CustomLink>
                 </li>
                 <li tabindex="0">
                   <a class="justify-between">
@@ -55,20 +56,20 @@ const Navbar = () => {
                   </ul>
                 </li>
                 <li>
-                  <Link to="/">Our Partners</Link>
+                  <CustomLink to="/partners">Our Partners</CustomLink>
                 </li>
                 <li>
-                  <Link to="/">About Us</Link>
+                  <CustomLink to="/about">About Us</CustomLink>
                 </li>
                 <li>
-                  <Link to="/">Contact us</Link>
+                  <CustomLink to="/contact">Contact us</CustomLink>
                 </li>
               </ul>
             </div>
             <div className="flex items-center justify-around">
-              <Link to="/">
+              <CustomLink to="/">
                 <img className="w-24" src={logo} alt="" />
-              </Link>
+              </CustomLink>
               <div className="mt-2">
                 <h4 className="font-semibold text-secondary">Masterkey</h4>
                 <p>Technology</p>
@@ -78,7 +79,7 @@ const Navbar = () => {
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal p-0">
               <li>
-                <Link to="/">Home</Link>
+                <CustomLink to="/">Home</CustomLink>
               </li>
               <li tabindex="0">
                 <a>
@@ -103,13 +104,13 @@ const Navbar = () => {
                 </ul>
               </li>
               <li>
-                <Link to="/">Our Partners</Link>
+                <CustomLink to="/partners">Our Partners</CustomLink>
               </li>
               <li>
-                <Link to="/">About Us</Link>
+                <CustomLink to="/about">About Us</CustomLink>
               </li>
               <li>
-                <Link to="/">Contact us</Link>
+                <CustomLink to="/contact">Contact us</CustomLink>
               </li>
             </ul>
           </div>
