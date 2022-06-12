@@ -20,9 +20,9 @@ const Home = () => {
               loop={5}
               cursor
               cursorStyle="_"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
+              typeSpeed={60}
+              deleteSpeed={30}
+              delaySpeed={2000}
             />
           </span>
           <p className="text-secondary mt-4">

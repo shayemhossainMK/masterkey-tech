@@ -42,7 +42,7 @@ const Services = () => {
             <p className="text-secondary">E-Commerce Solution</p>
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/affiliate">
           <div className="py-10 px-7 bg-base-100 rounded-lg">
             <img className="w-24 mx-auto mb-2" src={service5} alt="" />
             <p className="text-secondary">Affiliate Marketing Solutions</p>

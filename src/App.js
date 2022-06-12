@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
+import AffiliateMarketing from "./pages/Services/AffiliateMarketing/AffiliateMarketing";
 import BusinessManage from "./pages/Services/BusinessManage/BusinessManage";
 import DigitalMarketing from "./pages/Services/DigitalMarketing/DigitalMarketing";
 import Ecommerce from "./pages/Services/Ecommerce/Ecommerce";
@@ -25,6 +26,10 @@ function App() {
           element={<DigitalMarketing></DigitalMarketing>}
         ></Route>
         <Route path="/ecommerce" element={<Ecommerce></Ecommerce>}></Route>
+        <Route
+          path="/affiliate"
+          element={<AffiliateMarketing></AffiliateMarketing>}
+        ></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>
