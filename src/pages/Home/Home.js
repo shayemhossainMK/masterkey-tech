@@ -11,8 +11,8 @@ const Home = () => {
       <div className="flex flex-col justify-center " style={{ height: "90vh" }}>
         <video src={homeVideo} autoPlay loop muted></video>
         <div className="containt px-2 md:px-10">
-          <h1 className="text-4xl  text-white">We talk solutions that</h1>
-          <p className="text-white mt-5">
+          <h1 className="text-5xl  text-base-100">We talk solutions that</h1>
+          <p className="text-secondary mt-5">
             Learn more about us{" "}
             <FontAwesomeIcon
               className="ml-2"
