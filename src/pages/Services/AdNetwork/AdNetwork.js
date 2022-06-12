@@ -8,7 +8,7 @@ const AdNetwork = () => {
   return (
     <div className="flex">
       <div className="network-img">
-        <img className="w-96" src={photo2} alt="" />
+        <img className="w-96 h-full" src={photo2} alt="" />
       </div>
       <div className="px-5 my-7">
         <h1 className="text-3xl text-primary space-y-5">
@@ -34,40 +34,67 @@ const AdNetwork = () => {
             <p>Monthly Sale</p>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 py-5 mt-1 md:mt-10 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 py-5 mt-1 md:mt-10 gap-8">
           <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-5">
             <div>
               <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
             </div>
             <div>
-              <h1 className="text-secondary text-xl">BRANDING</h1>
+              <h1 className="text-secondary text-xl mb-2">BRANDING</h1>
               <p>- Display</p>
               <p>- Video</p>
               <p>- Ad innovation</p>
             </div>
           </div>
-          <div className="flex shadow-lg bg-base-100 rounded-md">
+          <div className="flex items-center shadow-lg bg-base-100 rounded-md">
             <div>
-              <img className="w-10" src={asset35} alt="" />
+              <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
             </div>
             <div>
-              <h1>BRANDING</h1>
-              <p>- Display</p>
-              <p>- Video</p>
+              <h1 className="text-secondary text-xl mb-2">ASSOCIATION</h1>
+              <p>- Worldwide partners</p>
+              <p>
+                - Top publishers provide <br /> quality traffic
+              </p>
+            </div>
+          </div>
+          <div className="flex items-center  shadow-lg bg-base-100 rounded-lg">
+            <div>
+              <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
+            </div>
+            <div>
+              <h1 className="text-secondary text-xl mb-2">PERFORMANCE</h1>
+              <p>- Mobile</p>
+              <p>- Desktop</p>
+            </div>
+          </div>
+          <div className="flex items-center  shadow-lg bg-base-100 rounded-lg">
+            <div>
+              <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
+            </div>
+            <div>
+              <h1 className="text-secondary text-xl mb-2">TARGETING</h1>
+              <p>- Ad Targeting</p>
+              <p>- User Profiling</p>
+              <p>- Customer-base Growth</p>
+            </div>
+          </div>
+          <div className="flex items-center  shadow-lg bg-base-100 rounded-lg">
+            <div>
+              <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
+            </div>
+            <div>
+              <h1 className="text-secondary text-xl mb-2">DATA INTELLIGENCE</h1>
+              <p>- Specific-user targeting</p>
+              <p>- Confirmed purchases</p>
               <p>- Ad innovation</p>
             </div>
           </div>
-          <div className="flex shadow-lg bg-base-100 rounded-md">
-            <div>
-              <img className="w-10" src={asset35} alt="" />
-            </div>
-            <div>
-              <h1>BRANDING</h1>
-              <p>- Display</p>
-              <p>- Video</p>
-              <p>- Ad innovation</p>
-            </div>
-          </div>
+        </div>
+        <div>
+          <button className="btn btn-secondary px-20 text-white">
+            EXPLORE MORE: WWW.MKADSDIGITAL.COM
+          </button>
         </div>
       </div>
     </div>
