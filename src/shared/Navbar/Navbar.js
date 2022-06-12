@@ -5,8 +5,8 @@ import CustomLink from "../CustomLink/CustomLink";
 
 const Navbar = () => {
   return (
-    <div className="shadow-lg">
-      <div className="px-2 md:px-10">
+    <div className="shadow-lg sticky top-0 z-50">
+      <div className="">
         <div class="navbar bg-base-100 ">
           <div class="navbar-start">
             <div class="dropdown">

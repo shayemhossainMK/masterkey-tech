@@ -11,10 +11,10 @@ const BusinessManage = () => {
     <div>
       <SubNavbar></SubNavbar>
       <div className="flex ">
-        <div className="business-img h-screen">
+        <div className="business-img h-full sticky top-0 z-10">
           <img className="w-full h-5/6" src={photo1} alt="" />
         </div>
-        <div className="pt-5 ml-[-4rem]">
+        <div className="pt-5 ml-[-4rem] z-20">
           <div className="flex">
             <div className="px-10 py-2 bg-base-100 rounded-lg shadow-2xl">
               <img className="w-16 mx-auto" src={asset16} alt="" />
