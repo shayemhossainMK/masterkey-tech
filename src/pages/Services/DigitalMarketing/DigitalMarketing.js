@@ -1,5 +1,5 @@
 import React from "react";
-import photo1 from "../../../images/serviceImg/photo1.jpeg";
+import photo2 from "../../../images/photo2.jpeg";
 import asset29 from "../../../images/serviceImg/digital-marketing/Asset 29.svg";
 import asset28 from "../../../images/serviceImg/digital-marketing/Asset 28.svg";
 import asset27 from "../../../images/serviceImg/digital-marketing/Asset 27.svg";
@@ -11,10 +11,10 @@ import "./DigitalMarketing.css";
 
 const DigitalMarketing = () => {
   return (
-    <div>
+    <div className="pb-5">
       <div className="flex ">
         <div className="business-img h-full">
-          <img className="w-full h-5/6" src={photo1} alt="" />
+          <img className="w-full h-5/6" src={photo2} alt="" />
         </div>
         <div className="pt-5 ml-[-4rem]">
           <div className="flex">

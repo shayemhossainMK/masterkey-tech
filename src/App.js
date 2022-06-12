@@ -5,6 +5,7 @@ import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import BusinessManage from "./pages/Services/BusinessManage/BusinessManage";
 import DigitalMarketing from "./pages/Services/DigitalMarketing/DigitalMarketing";
+import Ecommerce from "./pages/Services/Ecommerce/Ecommerce";
 import Services from "./pages/Services/Services";
 import Navbar from "./shared/Navbar/Navbar";
 
@@ -23,6 +24,7 @@ function App() {
           path="/digitalmarketing"
           element={<DigitalMarketing></DigitalMarketing>}
         ></Route>
+        <Route path="/ecommerce" element={<Ecommerce></Ecommerce>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>
