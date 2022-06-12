@@ -28,14 +28,14 @@ const Contact = () => {
             placeholder="Email"
             class="input w-full max-w-xs rounded-3xl shadow-2xl focus:outline-none"
           />
-          <p className="mt-5 text-primary text-xl font-semibold">
+          <p className="mt-5 text-primary text-xl font-semibold md:ml-3">
             contact@masterkey.tech
           </p>
-          <p className="text-secondary">
+          <p className="text-secondary md:ml-3">
             <small>Click to copy the email</small>
           </p>
         </div>
-        <div className="px-5 md:px-0 mt-5 md:mt-0">
+        <div className="px-5 md:px-0 mt-5 md:mt-0 ">
           <textarea
             className="rounded-lg p-5 shadow-2xl focus:outline-none "
             name=""
