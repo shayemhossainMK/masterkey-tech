@@ -8,14 +8,24 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="h-96">
-      <div
-        className="flex flex-col justify-center "
-        style={{ height: "100vh" }}
-      >
+      <div className="flex flex-col " style={{ height: "100vh" }}>
         <video src={homeVideo} autoPlay loop muted></video>
-        <div className="containt px-2 md:px-10">
-          <h1 className="text-5xl  text-base-100">We talk solutions that</h1>
-          <p className="text-secondary mt-5">
+        <div className="containt px-2 md:px-10 mt-52 md:mt-36">
+          <h1 className="text-2xl mb-4  text-base-100">
+            We talk solutions that
+          </h1>
+          <span className="text-3xl text-secondary">
+            <Typewriter
+              words={["MATTERS", "CONVERTS", "DISRUPTS!"]}
+              loop={5}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>
+          <p className="text-secondary mt-4">
             Learn more about us{" "}
             <FontAwesomeIcon
               className="ml-2"

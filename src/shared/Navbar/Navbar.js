@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center justify-around">
               <CustomLink to="/">
-                <img className="w-24" src={logo} alt="" />
+                <img className="w-20" src={logo} alt="" />
               </CustomLink>
               <div className="mt-2">
                 <h4 className="font-semibold text-secondary uppercase">
