@@ -1,0 +1,22 @@
+[
+    {
+        "id": "001",
+        "img":"http://simpleicon.com/wp-content/uploads/world.svg",
+       "text":"Publishers App & Web",
+        "number": "1500",
+        "duration": "3"
+    },
+    {
+        "id": "002",
+        "img": "",
+        "text":"Database of publishers",
+        "number": "10000",
+        "duration": "4"
+    },
+    {
+        "id": "003",
+        "text":"Monthly Sale",
+        "number": "100",
+        "duration": "3"
+    }
+]

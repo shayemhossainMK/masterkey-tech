@@ -48,7 +48,7 @@ const Services = () => {
             <p className="text-secondary">Affiliate Marketing Solutions</p>
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/adnetwork">
           <div className="py-12 px-8 rounded-lg bg-base-100">
             <img className="w-16 mx-auto mb-2" src={service6} alt="" />
             <p className="text-secondary">Ad Network Solutions</p>

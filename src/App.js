@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
+import AdNetwork from "./pages/Services/AdNetwork/AdNetwork";
 import AffiliateMarketing from "./pages/Services/AffiliateMarketing/AffiliateMarketing";
 import BusinessManage from "./pages/Services/BusinessManage/BusinessManage";
 import DigitalMarketing from "./pages/Services/DigitalMarketing/DigitalMarketing";
@@ -30,6 +31,7 @@ function App() {
           path="/affiliate"
           element={<AffiliateMarketing></AffiliateMarketing>}
         ></Route>
+        <Route path="/adnetwork" element={<AdNetwork></AdNetwork>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>
