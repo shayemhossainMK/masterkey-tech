@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <div className="px-3 md:px-28 py-5 h-screen service-container">
       <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-4 gap-10 items-center text-center">
-        <Link to="/">
+        <Link to="/businessmanage">
           <div className="py-9 px-9 bg-base-100 mx-auto rounded-xl shadow-md">
             <img className="w-16 mx-auto mb-2" src={service1} alt="" />
             <p className="text-secondary">
@@ -22,7 +22,7 @@ const Services = () => {
             </p>
           </div>
         </Link>
-        <Link to="/">
+        <Link to="/digitalmarketing">
           <div className="px-14 py-9 bg-base-100 mx-auto rounded-xl shadow-md">
             <img className="w-16 mx-auto mb-2" src={service2} alt="" />
             <p className="text-secondary">
