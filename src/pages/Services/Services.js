@@ -7,7 +7,7 @@ import service4 from "../../images/services/Asset 7.svg";
 import service5 from "../../images/services/Asset 6.svg";
 import service6 from "../../images/services/Asset 4.svg";
 import service7 from "../../images/services/Asset 3.svg";
-import service9 from "../../images/services/Asset 2.svg";
+import service8 from "../../images/services/Asset 2.svg";
 import { Link } from "react-router-dom";
 import SubNavbar from "../../shared/SubNavbar/SubNavbar";
 
@@ -65,7 +65,7 @@ const Services = () => {
           </Link>
           <Link to="/">
             <div className="py-12 px-8 rounded-lg bg-base-100">
-              <img className="w-16 mx-auto mb-2" src={service9} alt="" />
+              <img className="w-16 mx-auto mb-2" src={service8} alt="" />
               <p className="text-secondary">Bulk SMS Services</p>
             </div>
           </Link>

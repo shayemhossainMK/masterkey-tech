@@ -7,6 +7,8 @@ import service4 from "../../images/services/Asset 7.svg";
 import service5 from "../../images/services/Asset 6.svg";
 import service6 from "../../images/services/Asset 4.svg";
 import service7 from "../../images/services/Asset 3.svg";
+import service8 from "../../images/services/Asset 2.svg";
+
 const SubNavbar = () => {
   return (
     <div className="bg-secondary py-3 mt-1 shadow-lg">
@@ -70,7 +72,7 @@ const SubNavbar = () => {
         <li className="mx-2">
           <Link to="/">
             <div className="flex text-white text-xs">
-              <img className="w-5 mr-1" src={service7} alt="" />
+              <img className="w-5 mr-1" src={service8} alt="" />
               Personal Branding
             </div>
           </Link>
