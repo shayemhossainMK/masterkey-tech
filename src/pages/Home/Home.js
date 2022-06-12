@@ -2,7 +2,7 @@ import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import homeVideo from "../../images/video_preview_h264.mp4";
+import homeVideo from "../../images/homeCover.mp4";
 import "./Home.css";
 
 const Home = () => {
