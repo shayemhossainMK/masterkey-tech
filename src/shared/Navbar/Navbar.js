@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import CustomLink from "../CustomLink/CustomLink";
 
@@ -83,7 +84,7 @@ const Navbar = () => {
                 <CustomLink to="/">Home</CustomLink>
               </li>
               <li tabindex="0">
-                <a>
+                <Link to="/services">
                   What we do
                   <svg
                     class="fill-current"
@@ -94,7 +95,7 @@ const Navbar = () => {
                   >
                     <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                   </svg>
-                </a>
+                </Link>
                 <ul class="p-2 bg-base-100">
                   <li>
                     <a>Submenu 1</a>

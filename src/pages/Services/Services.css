@@ -1,0 +1,5 @@
+.service-container {
+  background: linear-gradient(to top, rgb(41, 1, 73), rgba(37, 1, 78, 0.918)),
+    url("https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
