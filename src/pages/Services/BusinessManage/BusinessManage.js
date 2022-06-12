@@ -5,9 +5,11 @@ import asset16 from "../../../images/serviceImg/Asset 15.svg";
 import asset14 from "../../../images/serviceImg/Asset 14.svg";
 import asset12 from "../../../images/serviceImg/Asset 12.svg";
 import asset11 from "../../../images/serviceImg/Asset 11.svg";
+import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
 const BusinessManage = () => {
   return (
     <div>
+      <SubNavbar></SubNavbar>
       <div className="flex ">
         <div className="business-img h-screen">
           <img className="w-full h-5/6" src={photo1} alt="" />

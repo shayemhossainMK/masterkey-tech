@@ -8,9 +8,11 @@ import asset57 from "../../../images/serviceImg/Asset 57.svg";
 import asset59 from "../../../images/serviceImg/Asset 59.svg";
 import asset52 from "../../../images/serviceImg/Asset 52.svg";
 import asset53 from "../../../images/serviceImg/Asset 53.svg";
+import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
 const AffiliateMarketing = () => {
   return (
     <div>
+      <SubNavbar></SubNavbar>
       <div className="bg-primary h-screen">
         <div className="text-center">
           <h1 className="uppercase text-white text-2xl pt-5">
