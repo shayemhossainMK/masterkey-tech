@@ -8,7 +8,10 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="h-96">
-      <div className="flex flex-col justify-center " style={{ height: "90vh" }}>
+      <div
+        className="flex flex-col justify-center "
+        style={{ height: "100vh" }}
+      >
         <video src={homeVideo} autoPlay loop muted></video>
         <div className="containt px-2 md:px-10">
           <h1 className="text-5xl  text-base-100">We talk solutions that</h1>
