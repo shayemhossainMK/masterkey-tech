@@ -28,7 +28,11 @@ const MobileApp = () => {
           <h1 className="text-4xl text-white text-center pt-5 md:pt-8">
             MOBILE APP & WEB DEVLOPMENT
           </h1>
-          <p className="text-white text-center text-xl mt-5">
+          <p
+            className="text-white text-center text-xl mt-5 "
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             Our versatile and super-talented tech team can <br /> provide
             solutions to your needs.
           </p>

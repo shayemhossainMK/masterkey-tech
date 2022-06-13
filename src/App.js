@@ -11,8 +11,14 @@ import Ecommerce from "./pages/Services/Ecommerce/Ecommerce";
 import MobileApp from "./pages/Services/MobileApp/MobileApp";
 import Services from "./pages/Services/Services";
 import Navbar from "./shared/Navbar/Navbar";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <Navbar></Navbar>
