@@ -60,68 +60,68 @@ const MobileApp = () => {
           </div>
           <div className="mx-5 py-10">
             <div className="grid grid-cols-4 justify-center gap-5">
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img1} alt="" />
                 <p className="text-center text-xs">Website Development</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img2} alt="" />
                 <p className="text-xs text-center">Newspaper Website</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img3} alt="" />
                 <p className="text-center text-xs">WordPress Development</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img4} alt="" />
                 <p className="text-center text-xs">Web Design</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img5} alt="" />
                 <p className="text-center text-xs">Cloud & Cyber Security</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img6} alt="" />
                 <p className="text-center text-xs">Chat Bots</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img7} alt="" />
                 <p className="text-center text-xs">iOS App Development</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-10 mx-auto mb-3" src={img8} alt="" />
                 <p className="text-center text-xs">Android App Development</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img9} alt="" />
                 <p className="text-center text-xs">Food Delivery App</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img10} alt="" />
                 <p className="text-center text-xs">Tracking App</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img11} alt="" />
                 <p className="text-center text-xs">Blockchain Development</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img12} alt="" />
                 <p className="text-center text-xs">Web Application</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
+              <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img13} alt="" />
                 <p className="text-center text-xs">Website Redesign</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
-                <img className="w-20 mx-auto mb-3" src={img14} alt="" />
+              <div className=" p-5 shadow-xl rounded-xl">
+                <img className="w-14 mx-auto mb-3" src={img14} alt="" />
                 <p className="text-center text-xs">Website maintenance</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
-                <img className="w-20 mx-auto mb-3" src={img15} alt="" />
+              <div className=" p-5 shadow-xl rounded-xl">
+                <img className="w-14 mx-auto mb-3" src={img15} alt="" />
                 <p className="text-center text-xs">UX/UI Development</p>
               </div>
-              <div className=" p-5 shadow-xl rounded-md">
-                <img className="w-20 mx-auto mb-3" src={img16} alt="" />
+              <div className=" p-5 shadow-xl rounded-xl">
+                <img className="w-14 mx-auto mb-3" src={img16} alt="" />
                 <p className="text-center text-xs">Facebook Applications</p>
               </div>
             </div>
