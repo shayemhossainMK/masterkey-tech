@@ -11,12 +11,12 @@ const HomeTwo = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 5000,
-    pauseOnHover: true,
+    pauseOnHover: false,
   };
   return (
     <div className="h-screen">
