@@ -1,17 +1,36 @@
 import React from "react";
-import photo2 from "../../../images/photo2.jpeg";
+import photo2 from "../../../images/services/Picture3.jpg";
 import asset42 from "../../../images/serviceImg/Asset 42.svg";
 import "./AdNetwork.css";
 import asset35 from "../../../images/serviceImg/Asset 35.svg";
 import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
+import photo4 from "../../../images/services/Picture4.png";
 
 const AdNetwork = () => {
   return (
     <div>
       <SubNavbar></SubNavbar>
       <div className="flex">
-        <div className="network-img">
-          <img className="w-96 h-full" src={photo2} alt="" />
+        <div className="network-img h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+          <img
+            className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
+            src={photo2}
+            alt=""
+          />
+          <div className=" absolute top-56 z-20 px-5">
+            <div className="w-60">
+              <img className="w-28 mb-4" src={photo4} alt="" />
+            </div>
+            <h1 className="text-white text-4xl">
+              ADS NETWORK <br /> SUPPORT
+            </h1>
+            <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+            <progress
+              class="progress progress-warning w-56 "
+              value="70"
+              max="100"
+            ></progress>
+          </div>
         </div>
         <div className="px-5 my-7">
           <h1 className="text-3xl text-primary space-y-5">
@@ -38,7 +57,7 @@ const AdNetwork = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 py-5 mt-1 md:mt-10 gap-8">
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-5">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-7">
               <div>
                 <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
               </div>
@@ -49,7 +68,7 @@ const AdNetwork = () => {
                 <p>- Ad innovation</p>
               </div>
             </div>
-            <div className="flex items-center shadow-lg bg-base-100 rounded-md">
+            <div className="flex items-center shadow-lg bg-base-100 rounded-md py-7">
               <div>
                 <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
               </div>
@@ -61,7 +80,7 @@ const AdNetwork = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-10">
               <div>
                 <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
               </div>
@@ -82,7 +101,7 @@ const AdNetwork = () => {
                 <p>- Customer-base Growth</p>
               </div>
             </div>
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-8">
               <div>
                 <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
               </div>
@@ -96,7 +115,7 @@ const AdNetwork = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="mt-10">
             <button className="btn btn-secondary px-20 text-white">
               EXPLORE MORE: WWW.MKADSDIGITAL.COM
             </button>
