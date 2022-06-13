@@ -17,7 +17,7 @@ const Home = () => {
           <span className="text-3xl text-secondary">
             <Typewriter
               words={["MATTERS", "CONVERTS", "DISRUPTS!"]}
-              loop={5}
+              loop={3}
               cursor
               cursorStyle="_"
               typeSpeed={60}
