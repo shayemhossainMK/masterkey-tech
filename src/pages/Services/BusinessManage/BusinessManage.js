@@ -11,8 +11,23 @@ const BusinessManage = () => {
     <div>
       <SubNavbar></SubNavbar>
       <div className="flex ">
-        <div className="business-img h-full sticky top-0 z-10">
-          <img className="w-full h-5/6" src={photo1} alt="" />
+        <div className="business-img h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+          <img
+            className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
+            src={photo1}
+            alt=""
+          />
+          <div className="absolute top-56 z-20 px-5">
+            <h1 className="text-white text-4xl">
+              BUSINESS <br /> MANAGEMENT <br /> SOLUTIONS
+            </h1>
+            <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+            <progress
+              class="progress progress-warning w-56 "
+              value="10"
+              max="100"
+            ></progress>
+          </div>
         </div>
         <div className="pt-5 ml-[-4rem] z-20">
           <div className="flex">

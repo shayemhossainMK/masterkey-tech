@@ -4,17 +4,34 @@ import asset32 from "../../../images/serviceImg/ecommerce/Asset 32.svg";
 import asset31 from "../../../images/serviceImg/ecommerce/Asset 31.svg";
 import asset30 from "../../../images/serviceImg/ecommerce/Asset 30.svg";
 import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
+import photo1 from "../../../images/services/Picture1.jpg";
+import "./Ecommerce.css";
 
 const Ecommerce = () => {
   return (
     <div>
       <SubNavbar></SubNavbar>
-      <div className="pb-5">
+      <div>
         <div className="flex ">
-          <div className="business-img h-screen">
-            <img className="w-full h-5/6" src={photo2} alt="" />
+          <div className=" sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+            <img
+              className=" ecommerce-img h-[500px] mix-blend-overlay relative z-10 opacity-70"
+              src={photo1}
+              alt=""
+            />
+            <div className=" absolute top-56 z-20 px-5">
+              <h1 className="text-white text-4xl">
+                E-COMMERCE <br /> SOLUTIONS
+              </h1>
+              <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+              <progress
+                class="progress progress-warning w-56 "
+                value="60"
+                max="100"
+              ></progress>
+            </div>
           </div>
-          <div className="pt-5 ml-[-4rem]">
+          <div className="pt-5 ml-[-4rem] z-20">
             <div className="flex">
               <div className="px-7 py-1 bg-base-100 rounded-lg shadow-2xl">
                 <img className="w-12 mx-auto" src={asset32} alt="" />

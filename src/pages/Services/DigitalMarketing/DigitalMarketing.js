@@ -18,10 +18,21 @@ const DigitalMarketing = () => {
         <div className="flex ">
           <div className="business-img h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className="w-full h-full mix-blend-overlay"
+              className="w-full h-full mix-blend-overlay relative z-10 opacity-70"
               src={photo2}
               alt=""
             />
+            <div className=" absolute top-56 z-20 px-5">
+              <h1 className="text-white text-4xl">
+                DIGITAL <br /> MARKETING <br /> SOLUTIONS
+              </h1>
+              <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+              <progress
+                class="progress progress-warning w-56 "
+                value="30"
+                max="100"
+              ></progress>
+            </div>
           </div>
           <div className="py-5 ml-[-4rem] z-20">
             <div className="flex">
