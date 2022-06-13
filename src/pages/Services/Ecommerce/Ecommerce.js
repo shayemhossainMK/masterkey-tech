@@ -26,7 +26,7 @@ const Ecommerce = () => {
               <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
               <progress
                 class="progress progress-warning w-56 "
-                value="60"
+                value="50"
                 max="100"
               ></progress>
             </div>

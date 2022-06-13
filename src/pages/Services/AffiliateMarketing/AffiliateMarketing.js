@@ -9,41 +9,58 @@ import asset59 from "../../../images/serviceImg/Asset 59.svg";
 import asset52 from "../../../images/serviceImg/Asset 52.svg";
 import asset53 from "../../../images/serviceImg/Asset 53.svg";
 import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
+import photo3 from "../../../images/services/Picture2.jpg";
 const AffiliateMarketing = () => {
   return (
     <div>
       <SubNavbar></SubNavbar>
-      <div className="bg-primary h-screen">
+      <div className="bg-primary">
         <div className="text-center">
           <h1 className="uppercase text-white text-2xl pt-5">
             AFFILIATE MARKETING SOLUTIONS
           </h1>
         </div>
-        <div className="px-5 md:px-20 pt-3 md:pt-10">
-          <div className="flex ">
+        <div className="px-5 md:px-16 pt-3 md:pt-10">
+          <div className="flex justify-center pb-14">
             <div className="px-5 md:px-30">
-              <img className="w-82" src={asset3} alt="" />
-              <p className="px-5 md:px-24 text-white text-xl mt-[-15rem] ">
-                For any e-commerce business Affiliate Marketing is a must.
-                Because it contributes more than 20% of daily traffic and 10% of
-                the sale. In Masterkey we have the best Affiliate Marketing
-                Managers who have working experience with Brands established in
-                the US, UK, Canada, and South Asian markets.
+              <img className="w-[550px]" src={asset3} alt="" />
+              <p className="px-5 md:px-10 text-white text-xl mt-[-15rem] ">
+                For any e-commerce business Affiliate <br /> Marketing is a
+                must. Because it contributes <br /> more than 20% of daily
+                traffic and 10% of the <br /> sale. In Masterkey we have the
+                best Affiliate <br /> Marketing Managers who have working
+                experience <br /> with Brands established in the US, UK, Canada,
+                and <br /> South Asian markets.
               </p>
             </div>
             <div>
-              <img src={coinCount} alt="" />
+              <img className="w-[400px]" src={coinCount} alt="" />
             </div>
           </div>
         </div>
       </div>
       <div>
-        <div className="pb-5">
+        <div className="">
           <div className="flex ">
-            <div className="business-img h-full">
-              <img className="w-full h-5/6" src={photo2} alt="" />
+            <div className="h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+              <img
+                className="w-full h-[650px] mix-blend-overlay relative z-10 opacity-70"
+                src={photo3}
+                alt=""
+              />
+              <div className=" absolute top-56 z-20 px-5">
+                <h1 className="text-white text-4xl">
+                  AFFILIATE <br /> MARKETING <br /> SOLUTIONS
+                </h1>
+                <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+                <progress
+                  class="progress progress-warning w-56 "
+                  value="60"
+                  max="100"
+                ></progress>
+              </div>
             </div>
-            <div className="pt-5 ml-[-4rem]">
+            <div className="pt-5 ml-[-4rem] z-20 pb-10">
               <div className="flex">
                 <div className="px-7 py-7 bg-base-100 rounded-lg shadow-2xl">
                   <img className="w-16 mx-auto" src={asset60} alt="" />
