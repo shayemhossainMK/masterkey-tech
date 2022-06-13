@@ -87,7 +87,7 @@ const AffiliateMarketing = () => {
                   <img className="w-16 mx-auto" src={asset57} alt="" />
                 </div>
                 <div className="px-6 flex items-center justify-between w-full mx-5 bg-base-100 rounded-lg shadow-lg">
-                  <p className="">
+                  <p className="pr-2">
                     Set up email automation, trigger emails, and pixels, add
                     resources for affiliates, and then test the platform and
                     make it ready to launch
