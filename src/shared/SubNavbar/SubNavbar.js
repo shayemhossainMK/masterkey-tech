@@ -15,7 +15,7 @@ const SubNavbar = () => {
   return (
     <div className="bg-secondary py-3 mt-1 shadow-lg sticky top-24 z-40">
       <ul className="flex justify-center items-center">
-        <li className="mx-2 shadow-xl border rounded-md  subnav-btn">
+        <li className="mx-2 shadow-xl border border-blue-300 rounded-md  subnav-btn">
           <Link to="/businessmanage">
             <div className="flex text-white text-xs p-1">
               <img className="w-4 mr-1" src={service1} alt="" />
@@ -23,7 +23,7 @@ const SubNavbar = () => {
             </div>
           </Link>
         </li>
-        <li className="mx-2  shadow-xl border rounded-md  subnav-btn ">
+        <li className="mx-2  shadow-xl border border-blue-300 rounded-md  subnav-btn ">
           <Link to="/digitalmarketing">
             <div className="flex text-white text-xs p-1">
               <img className="w-4 mr-1" src={service2} alt="" />
@@ -31,7 +31,7 @@ const SubNavbar = () => {
             </div>
           </Link>
         </li>
-        <li className="mx-2 shadow-xl border rounded-md  subnav-btn ">
+        <li className="mx-2 shadow-xl border border-blue-300  rounded-md  subnav-btn ">
           <Link to="/mobileapp">
             <div className="flex text-white text-xs p-1">
               <img className="w-5 mr-1" src={service3} alt="" />
@@ -39,7 +39,7 @@ const SubNavbar = () => {
             </div>
           </Link>
         </li>
-        <li className="mx-2 shadow-xl border rounded-md  subnav-btn">
+        <li className="mx-2 shadow-xl border border-blue-300 first-line: rounded-md  subnav-btn">
           <Link to="/ecommerce">
             <div className="flex text-white text-xs p-1">
               <img className="w-4 mr-1" src={service4} alt="" />
@@ -47,7 +47,7 @@ const SubNavbar = () => {
             </div>
           </Link>
         </li>
-        <li className="mx-2 shadow-xl border rounded-md  subnav-btn">
+        <li className="mx-2 shadow-xl border border-blue-300 rounded-md  subnav-btn">
           <Link to="/affiliate">
             <div className="flex text-white text-xs p-1">
               <img className="w-5 mr-1" src={service5} alt="" />
@@ -55,7 +55,7 @@ const SubNavbar = () => {
             </div>
           </Link>
         </li>
-        <li className="mx-2 shadow-xl border rounded-md  subnav-btn">
+        <li className="mx-2 shadow-xl border border-blue-300  rounded-md  subnav-btn">
           <Link to="/adnetwork">
             <div className="flex text-white text-xs p-1">
               <img className="w-4 mr-1" src={service6} alt="" />
@@ -63,7 +63,7 @@ const SubNavbar = () => {
             </div>
           </Link>
         </li>
-        <li className="mx-2 shadow-xl border rounded-md subnav-btn">
+        <li className="mx-2 shadow-xl border border-blue-300 rounded-md subnav-btn">
           <Link to="/personalbranding">
             <div className="flex text-white text-xs p-1">
               <img className="w-4 mr-1" src={service7} alt="" />
@@ -71,7 +71,7 @@ const SubNavbar = () => {
             </div>
           </Link>
         </li>
-        <li className="mx-2 shadow-xl border rounded-md subnav-btn">
+        <li className="mx-2 shadow-xl border border-blue-300 rounded-md subnav-btn">
           <Link to="/bulksms">
             <div className="flex text-white text-xs p-1">
               <img className="w-3 mr-1" src={service8} alt="" />
