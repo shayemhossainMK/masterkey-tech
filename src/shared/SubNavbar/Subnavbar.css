@@ -1,0 +1,6 @@
+.subnav-btn {
+  transition: all ease-in-out 0.3s;
+}
+.subnav-btn:hover {
+  transform: scale(1.1);
+}
