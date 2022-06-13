@@ -16,6 +16,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import PersonalBranding from "./pages/Services/PersonalBranding/PersonalBranding";
 import BulkSms from "./pages/Services/BulkSms/BulkSms";
+import HomeTwo from "./pages/Home2/HomeTwo";
 
 function App() {
   useEffect(() => {
@@ -25,7 +26,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/" element={<HomeTwo></HomeTwo>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
         <Route
           path="/businessmanage"
