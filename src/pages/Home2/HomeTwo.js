@@ -14,7 +14,7 @@ const HomeTwo = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 5000,
     pauseOnHover: true,
   };
@@ -28,7 +28,7 @@ const HomeTwo = () => {
             </div>
           </div>
           <div>
-            <img className="h-screen w-full" src={serviceImg} alt="" />
+            <img className="h-screen w-screen" src={serviceImg} alt="" />
           </div>
           <div>
             <About></About>

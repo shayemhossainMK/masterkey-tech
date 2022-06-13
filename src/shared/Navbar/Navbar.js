@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../images/logo.png";
+import logo from "../../images/logopng.png";
 import CustomLink from "../CustomLink/CustomLink";
 
 const Navbar = () => {
@@ -47,16 +47,10 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="flex items-center justify-around">
+            <div>
               <CustomLink to="/">
-                <img className="w-20" src={logo} alt="" />
+                <img className="w-48 pl-10" src={logo} alt="" />
               </CustomLink>
-              <div className="mt-2">
-                <h4 className="font-semibold text-secondary uppercase">
-                  Masterkey
-                </h4>
-                <p className="text-xs uppercase">Technology</p>
-              </div>
             </div>
           </div>
           <div class="navbar-center hidden lg:flex">

@@ -1,0 +1,17 @@
+.wraper {
+  width: 100vw;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  display: flex;
+}
+.wraper section {
+  flex: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  border: 2px solid black;
+}

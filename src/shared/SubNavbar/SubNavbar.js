@@ -13,7 +13,7 @@ import "./Subnavbar.css";
 
 const SubNavbar = () => {
   return (
-    <div className="bg-secondary py-3 mt-1 shadow-lg sticky top-24 z-40">
+    <div className="bg-secondary py-3 mt-1 shadow-lg sticky top-20 z-40">
       <ul className="flex justify-center items-center">
         <li className="mx-2 shadow-xl rounded-md  subnav-btn">
           <Link to="/businessmanage">
