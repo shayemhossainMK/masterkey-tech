@@ -1,0 +1,9 @@
+.bulk-container {
+  background-image: linear-gradient(
+      0deg,
+      rgba(60, 2, 94, 0.473),
+      rgba(113, 2, 165, 0.63) 80%
+    ),
+    url(../../../images//services//Picture16.jpg);
+  background-size: cover;
+}

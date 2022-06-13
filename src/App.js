@@ -14,6 +14,8 @@ import Navbar from "./shared/Navbar/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import PersonalBranding from "./pages/Services/PersonalBranding/PersonalBranding";
+import BulkSms from "./pages/Services/BulkSms/BulkSms";
 
 function App() {
   useEffect(() => {
@@ -40,6 +42,11 @@ function App() {
           element={<AffiliateMarketing></AffiliateMarketing>}
         ></Route>
         <Route path="/adnetwork" element={<AdNetwork></AdNetwork>}></Route>
+        <Route
+          path="/personalbranding"
+          element={<PersonalBranding></PersonalBranding>}
+        ></Route>
+        <Route path="/bulksms" element={<BulkSms></BulkSms>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
       </Routes>

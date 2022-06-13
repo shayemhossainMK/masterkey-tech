@@ -63,7 +63,7 @@ const SubNavbar = () => {
           </Link>
         </li>
         <li className="mx-2">
-          <Link to="/">
+          <Link to="/personalbranding">
             <div className="flex text-white text-xs">
               <img className="w-5 mr-1" src={service7} alt="" />
               Personal Branding
@@ -71,10 +71,10 @@ const SubNavbar = () => {
           </Link>
         </li>
         <li className="mx-2">
-          <Link to="/">
+          <Link to="/bulksms">
             <div className="flex text-white text-xs">
               <img className="w-5 mr-1" src={service8} alt="" />
-              Personal Branding
+              Bulk SMS Services
             </div>
           </Link>
         </li>

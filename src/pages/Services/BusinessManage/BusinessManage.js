@@ -13,7 +13,7 @@ const BusinessManage = () => {
       <div className="flex ">
         <div className="business-img h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
           <img
-            className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
+            className="w-full h-[580px] mix-blend-overlay relative z-10 opacity-70"
             src={photo1}
             alt=""
           />
@@ -29,7 +29,7 @@ const BusinessManage = () => {
             ></progress>
           </div>
         </div>
-        <div className="pt-5 ml-[-4rem] z-20">
+        <div className="pt-5 ml-[-4rem] z-20 pb-10">
           <div className="flex">
             <div className="px-10 py-2 bg-base-100 rounded-lg shadow-2xl">
               <img className="w-16 mx-auto" src={asset16} alt="" />

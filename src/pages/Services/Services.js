@@ -57,13 +57,13 @@ const Services = () => {
               <p className="text-secondary">Ad Network Solutions</p>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/personalbranding">
             <div className="py-12 px-8 rounded-lg bg-base-100">
               <img className="w-16 mx-auto mb-2" src={service7} alt="" />
               <p className="text-secondary">Personal Branding</p>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/bulksms">
             <div className="py-12 px-8 rounded-lg bg-base-100">
               <img className="w-16 mx-auto mb-2" src={service8} alt="" />
               <p className="text-secondary">Bulk SMS Services</p>
