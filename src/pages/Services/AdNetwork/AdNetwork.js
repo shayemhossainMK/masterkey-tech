@@ -101,13 +101,13 @@ const AdNetwork = () => {
                 <p>- Customer-base Growth</p>
               </div>
             </div>
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-8">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-5">
               <div>
                 <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
               </div>
               <div>
                 <h1 className="text-secondary text-xl mb-2">
-                  DATA INTELLIGENCE
+                  DATA <br /> INTELLIGENCE
                 </h1>
                 <p>- Specific-user targeting</p>
                 <p>- Confirmed purchases</p>
