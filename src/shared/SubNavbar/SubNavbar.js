@@ -31,7 +31,7 @@ const SubNavbar = () => {
           </Link>
         </li>
         <li className="mx-2">
-          <Link to="/">
+          <Link to="/mobileapp">
             <div className="flex text-white text-xs">
               <img className="w-5 mr-1" src={service3} alt="" />
               Mobile app & Web Development

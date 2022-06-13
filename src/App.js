@@ -8,6 +8,7 @@ import AffiliateMarketing from "./pages/Services/AffiliateMarketing/AffiliateMar
 import BusinessManage from "./pages/Services/BusinessManage/BusinessManage";
 import DigitalMarketing from "./pages/Services/DigitalMarketing/DigitalMarketing";
 import Ecommerce from "./pages/Services/Ecommerce/Ecommerce";
+import MobileApp from "./pages/Services/MobileApp/MobileApp";
 import Services from "./pages/Services/Services";
 import Navbar from "./shared/Navbar/Navbar";
 
@@ -26,6 +27,7 @@ function App() {
           path="/digitalmarketing"
           element={<DigitalMarketing></DigitalMarketing>}
         ></Route>
+        <Route path="/mobileapp" element={<MobileApp></MobileApp>}></Route>
         <Route path="/ecommerce" element={<Ecommerce></Ecommerce>}></Route>
         <Route
           path="/affiliate"

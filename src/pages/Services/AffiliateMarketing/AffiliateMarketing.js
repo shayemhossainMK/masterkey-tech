@@ -60,7 +60,7 @@ const AffiliateMarketing = () => {
                 ></progress>
               </div>
             </div>
-            <div className="pt-5 ml-[-4rem] z-20 pb-10">
+            <div className="ml-[-4rem] z-20 py-10">
               <div className="flex">
                 <div className="px-7 py-7 bg-base-100 rounded-lg shadow-2xl">
                   <img className="w-16 mx-auto" src={asset60} alt="" />

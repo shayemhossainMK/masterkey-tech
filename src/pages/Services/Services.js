@@ -33,7 +33,7 @@ const Services = () => {
               </p>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/mobileapp">
             <div className="px-7 py-10 bg-base-100 rounded-xl">
               <img className="w-16 mx-auto mb-2" src={service3} alt="" />
               <p className="text-secondary">Mobile app & Web Development</p>
