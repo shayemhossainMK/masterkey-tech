@@ -1,8 +1,9 @@
 import React from "react";
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="bg-gray-50 h-screen">
+    <div className="bg-gray-50 contact-container">
       <div className="grid grid-cols-1 md:grid-cols-2 w-full px-0 md:px-28 py-28">
         <div className="text-center md:text-left">
           <input

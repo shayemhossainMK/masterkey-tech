@@ -15,3 +15,10 @@
   scroll-snap-align: start;
   border: 2px solid black;
 }
+.home-img {
+  height: 88vh;
+}
+.homeTwo-container {
+  overflow-y: hidden;
+  overflow-x: auto;
+}

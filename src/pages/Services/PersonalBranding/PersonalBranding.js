@@ -6,6 +6,7 @@ import photo1 from "../../../images/services/Picture10.png";
 import photo2 from "../../../images/services/Picture11.png";
 import photo3 from "../../../images/services/Picture12.png";
 import photo4 from "../../../images/services/Picture13.png";
+import Typewriter from "typewriter-effect";
 
 const PersonalBranding = () => {
   return (
@@ -41,6 +42,16 @@ const PersonalBranding = () => {
           </div>
           <div>
             <img className="w-60 mx-10" src={photo2} alt="" />
+            <h1 className="text-xl text-white mt-[-3rem] mx-14">
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 50,
+                  strings: [`PERSONAL BRANDING`],
+                }}
+              ></Typewriter>
+            </h1>
           </div>
           <div>
             <img className="w-56" src={photo3} alt="" />

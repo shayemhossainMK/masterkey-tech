@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Contact from "../Contact/Contact";
 import About from "../About/About";
 import serviceImg from "../../images/Picture1.png";
+import "./HomeTwo.css";
 
 import Home from "../Home/Home";
 const HomeTwo = () => {
@@ -19,9 +20,12 @@ const HomeTwo = () => {
     // pauseOnHover: false,
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    pauseOnHover: false,
     appendDots: (dots) => (
       <div
         style={{
@@ -36,10 +40,10 @@ const HomeTwo = () => {
     customPaging: (i) => (
       <div
         style={{
-          width: "30px",
+          width: "25px",
           marginTop: "-35px",
           color: "white",
-          background: "#65509c",
+          background: "#ED6949",
           border: "1px #65509C solid",
           borderRadius: "20px",
         }}
@@ -58,7 +62,7 @@ const HomeTwo = () => {
             </div>
           </div>
           <div>
-            <img className="h-screen w-screen" src={serviceImg} alt="" />
+            <img className="home-img w-screen" src={serviceImg} alt="" />
           </div>
           <div>
             <About></About>

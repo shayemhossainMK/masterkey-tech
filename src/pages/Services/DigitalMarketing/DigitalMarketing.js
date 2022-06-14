@@ -18,7 +18,7 @@ const DigitalMarketing = () => {
         <div className="flex ">
           <div className="h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className=" photo-container h-screen mix-blend-overlay relative z-10 opacity-70"
+              className=" img-container h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo2}
               alt=""
             />
