@@ -83,10 +83,10 @@ const AffiliateMarketing = () => {
                 </div>
               </div>
               <div className="flex  mt-5">
-                <div className="px-7 py-7 bg-base-100 rounded-lg shadow-2xl">
-                  <img className="w-16 mx-auto" src={asset57} alt="" />
+                <div className="px-8 py-7 bg-base-100 rounded-lg shadow-2xl">
+                  <img className="w-14 mx-auto" src={asset57} alt="" />
                 </div>
-                <div className="px-6 flex items-center justify-between w-full mx-5 bg-base-100 rounded-lg shadow-lg">
+                <div className="px-7 flex items-center justify-between w-full mx-5 bg-base-100 rounded-lg shadow-lg">
                   <p className="pr-2">
                     Set up email automation, trigger emails, and pixels, add
                     resources for affiliates, and then test the platform and
@@ -96,8 +96,8 @@ const AffiliateMarketing = () => {
                 </div>
               </div>
               <div className="flex mt-5">
-                <div className="px-7 py-6 bg-base-100 rounded-lg shadow-2xl">
-                  <img className="w-16 mx-auto mt-3" src={asset56} alt="" />
+                <div className="px-9 py-6 bg-base-100 rounded-lg shadow-2xl">
+                  <img className="w-12 mx-auto mt-3" src={asset56} alt="" />
                 </div>
                 <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg w-full justify-between">
                   <p className="">
@@ -107,7 +107,7 @@ const AffiliateMarketing = () => {
                 </div>
               </div>
               <div className="flex  mt-5">
-                <div className="px-7 py-2 bg-base-100 rounded-lg shadow-2xl">
+                <div className="px-7 py-3 bg-base-100 rounded-lg shadow-2xl">
                   <img className="w-16 mt-4 mx-auto" src={asset53} alt="" />
                 </div>
                 <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg justify-between w-full">
@@ -136,7 +136,7 @@ const AffiliateMarketing = () => {
                 </div>
               </div>
               <div className="flex  mt-5">
-                <div className="px-7 py-2 bg-base-100 rounded-lg shadow-2xl">
+                <div className="px-7 py-3 bg-base-100 rounded-lg shadow-2xl">
                   <img className="w-16 mt-4 mx-auto" src={asset52} alt="" />
                 </div>
                 <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg justify-between w-full">
