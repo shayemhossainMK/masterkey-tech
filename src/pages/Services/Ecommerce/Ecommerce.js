@@ -4,7 +4,7 @@ import asset32 from "../../../images/serviceImg/ecommerce/Asset 32.svg";
 import asset31 from "../../../images/serviceImg/ecommerce/Asset 31.svg";
 import asset30 from "../../../images/serviceImg/ecommerce/Asset 30.svg";
 import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
-import photo1 from "../../../images/services/Picture1.jpg";
+import photo1 from "../../../images/e-commerce.jpg";
 import "./Ecommerce.css";
 
 const Ecommerce = () => {
@@ -15,7 +15,7 @@ const Ecommerce = () => {
         <div className="flex ">
           <div className=" sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className=" w-full h-screen mix-blend-overlay relative z-10 opacity-70"
+              className=" photo-conainer h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo1}
               alt=""
             />

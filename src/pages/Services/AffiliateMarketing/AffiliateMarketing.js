@@ -10,6 +10,8 @@ import asset52 from "../../../images/serviceImg/Asset 52.svg";
 import asset53 from "../../../images/serviceImg/Asset 53.svg";
 import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
 import photo3 from "../../../images/services/Picture2.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 const AffiliateMarketing = () => {
   return (
     <div>
@@ -36,6 +38,12 @@ const AffiliateMarketing = () => {
             <div>
               <img className="w-[400px]" src={coinCount} alt="" />
             </div>
+          </div>
+          <div className="text-center mt-[-3rem] pb-5">
+            <FontAwesomeIcon
+              className="text-secondary  text-4xl"
+              icon={faAngleDown}
+            />
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@ const DigitalMarketing = () => {
         <div className="flex ">
           <div className="h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
+              className=" photo-container h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo2}
               alt=""
             />
@@ -129,7 +129,7 @@ const DigitalMarketing = () => {
               </div>
             </div>
             <div className="flex  mt-5">
-              <div className="px-7 py-2 bg-base-100 rounded-lg shadow-2xl">
+              <div className="px-8 py-2 bg-base-100 rounded-lg shadow-2xl">
                 <img className="w-10 mx-auto" src={asset24} alt="" />
                 <p className="text-xs text-center mt-1">
                   Conversation rate optimization

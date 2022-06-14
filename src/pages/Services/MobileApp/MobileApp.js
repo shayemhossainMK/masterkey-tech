@@ -18,6 +18,7 @@ import img13 from "../../../images/services/mobile-app/Asset 64.svg";
 import img14 from "../../../images/services/mobile-app/Asset 63.svg";
 import img15 from "../../../images/services/mobile-app/Asset 62.svg";
 import img16 from "../../../images/services/mobile-app/Asset 61.svg";
+import Typewriter from "typewriter-effect";
 
 const MobileApp = () => {
   return (
@@ -38,15 +39,25 @@ const MobileApp = () => {
           </p>
           <h1 className="text-5xl text-white text-center mt-20">
             You Name it,
-            <br /> We can do it…
+            <br />
+            <span>
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 50,
+                  strings: ["We can do it…"],
+                }}
+              ></Typewriter>
+            </span>
           </h1>
         </div>
       </div>
       <div>
         <div className="flex">
-          <div className="network-img h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+          <div className="photo-container h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
+              className="  h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo7}
               alt=""
             />

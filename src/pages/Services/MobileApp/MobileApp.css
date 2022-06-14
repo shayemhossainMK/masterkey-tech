@@ -7,3 +7,6 @@
     url(../../../images//services/Picture7.jpg);
   background-size: cover;
 }
+.photo-container {
+  width: 450px;
+}
