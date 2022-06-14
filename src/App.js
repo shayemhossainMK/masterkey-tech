@@ -17,6 +17,7 @@ import { useEffect } from "react";
 import PersonalBranding from "./pages/Services/PersonalBranding/PersonalBranding";
 import BulkSms from "./pages/Services/BulkSms/BulkSms";
 import HomeTwo from "./pages/Home2/HomeTwo";
+import HomeThree from "./pages/Home3/HomeThree";
 
 function App() {
   useEffect(() => {

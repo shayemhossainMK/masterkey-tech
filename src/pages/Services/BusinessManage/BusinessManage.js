@@ -1,6 +1,6 @@
 import React from "react";
 import "./BusinessManage.css";
-import photo1 from "../../../images/serviceImg/photo1.jpeg";
+import photo1 from "../../../images/Picture1.jpg";
 import asset16 from "../../../images/serviceImg/Asset 15.svg";
 import asset14 from "../../../images/serviceImg/Asset 14.svg";
 import asset12 from "../../../images/serviceImg/Asset 12.svg";
@@ -13,17 +13,19 @@ const BusinessManage = () => {
       <div className="flex ">
         <div className="business-img h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
           <img
-            className="w-full h-[580px] mix-blend-overlay relative z-10 opacity-70"
+            className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
             src={photo1}
             alt=""
           />
           <div className="absolute top-56 z-20 px-5">
-            <h1 className="text-white text-4xl">
+            <h1 className="text-white text-4xl fixed">
               BUSINESS <br /> MANAGEMENT <br /> SOLUTIONS
             </h1>
-            <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+            <h4 className="text-xl text-white uppercase fixed mt-36">
+              Service
+            </h4>
             <progress
-              class="progress progress-warning w-56 "
+              class="progress progress-warning w-56 fixed mt-44"
               value="10"
               max="100"
             ></progress>
@@ -33,9 +35,7 @@ const BusinessManage = () => {
           <div className="flex">
             <div className="px-10 py-2 bg-base-100 rounded-lg shadow-2xl">
               <img className="w-16 mx-auto" src={asset16} alt="" />
-              <p className="text-center">
-                <small>ERP Software</small>
-              </p>
+              <p className="text-center text-xs mt-2">ERP Software</p>
             </div>
             <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-xl">
               <p>
@@ -48,9 +48,7 @@ const BusinessManage = () => {
           <div className="flex mt-5">
             <div className="px-10 py-2 bg-base-100 rounded-lg shadow-2xl">
               <img className="w-16 mx-auto" src={asset14} alt="" />
-              <p className="text-center">
-                <small>HR Software</small>
-              </p>
+              <p className="text-xs text-center mt-2 ">HR Software</p>
             </div>
             <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
               <p className="">
@@ -61,9 +59,9 @@ const BusinessManage = () => {
             </div>
           </div>
           <div className="flex  mt-5">
-            <div className="px-8 py-2 bg-base-100 rounded-lg shadow-2xl">
-              <img className="w-16 mx-auto" src={asset12} alt="" />
-              <p className="text-xs text-center">
+            <div className="px-7 py-2 bg-base-100 rounded-lg shadow-2xl">
+              <img className="w-11 mx-auto" src={asset12} alt="" />
+              <p className="text-xs text-center mt-2">
                 Restaurant <br /> Management
               </p>
             </div>

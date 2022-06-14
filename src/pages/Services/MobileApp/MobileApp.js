@@ -36,7 +36,7 @@ const MobileApp = () => {
             Our versatile and super-talented tech team can <br /> provide
             solutions to your needs.
           </p>
-          <h1 className="text-5xl text-white mx-auto w-96 mt-20">
+          <h1 className="text-5xl text-white text-center mt-20">
             You Name it,
             <br /> We can do it…
           </h1>
