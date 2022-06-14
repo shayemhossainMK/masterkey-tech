@@ -3,6 +3,11 @@ import photo2 from "../../../images/services/Picture3.jpg";
 import asset42 from "../../../images/serviceImg/Asset 42.svg";
 import "./AdNetwork.css";
 import asset35 from "../../../images/serviceImg/Asset 35.svg";
+import asset36 from "../../../images/serviceImg/Asset 36.svg";
+import asset37 from "../../../images/serviceImg/Asset 37.svg";
+import asset38 from "../../../images/serviceImg/Asset 38.svg";
+import asset39 from "../../../images/serviceImg/Asset 39.svg";
+import asset41 from "../../../images/serviceImg/Asset 41.svg";
 import SubNavbar from "../../../shared/SubNavbar/SubNavbar";
 import photo4 from "../../../images/services/Picture4.png";
 
@@ -34,7 +39,7 @@ const AdNetwork = () => {
             ></progress>
           </div>
         </div>
-        <div className="px-5 my-7">
+        <div className="px-5 my-7 ml-5">
           <h1 className="text-3xl text-primary space-y-5">
             MK ADS DIGITAL BRINGS <br />
             <span className="text-red-500 underline">QUALITY TRAFFIC</span> THAT
@@ -48,20 +53,20 @@ const AdNetwork = () => {
               <p>Publishers App & Web</p>
             </div>
             <div className="px-3 py-3 shadow-2xl text-center rounded-xl">
-              <img className="w-8 mx-auto " src={asset42} alt="" />
+              <img className="w-8 mx-auto " src={asset37} alt="" />
               <h1 className="text-3xl text-secondary my-2">10000+</h1>
               <p>Database of publishers</p>
             </div>
-            <div className="px-3 text-center shadow-xl rounded-lg py-3">
-              <img className="w-8 mx-auto" src={asset42} alt="" />
+            <div className="px-3 text-center shadow-2xl rounded-lg py-3">
+              <img className="w-8 mx-auto" src={asset41} alt="" />
               <h1 className="text-secondary text-3xl my-2">$100K+</h1>
               <p>Monthly Sale</p>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 py-5 mt-1 md:mt-10 gap-8">
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-7">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-xl py-7">
               <div>
-                <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
+                <img className="w-14 ml-[-1rem]" src={asset39} alt="" />
               </div>
               <div>
                 <h1 className="text-secondary text-xl mb-2">BRANDING</h1>
@@ -70,9 +75,9 @@ const AdNetwork = () => {
                 <p>- Ad innovation</p>
               </div>
             </div>
-            <div className="flex items-center shadow-lg bg-base-100 rounded-md py-7">
+            <div className="flex items-center shadow-lg bg-base-100 rounded-xl py-7">
               <div>
-                <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
+                <img className="w-16 ml-[-20px]" src={asset36} alt="" />
               </div>
               <div>
                 <h1 className="text-secondary text-xl mb-2">ASSOCIATION</h1>
@@ -82,7 +87,7 @@ const AdNetwork = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-10">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-xl py-12">
               <div>
                 <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
               </div>
@@ -92,9 +97,9 @@ const AdNetwork = () => {
                 <p>- Desktop</p>
               </div>
             </div>
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-xl">
               <div>
-                <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
+                <img className="w-14 ml-[-1rem]" src={asset38} alt="" />
               </div>
               <div>
                 <h1 className="text-secondary text-xl mb-2">TARGETING</h1>
@@ -103,9 +108,9 @@ const AdNetwork = () => {
                 <p>- Customer-base Growth</p>
               </div>
             </div>
-            <div className="flex items-center  shadow-lg bg-base-100 rounded-lg py-5">
+            <div className="flex items-center  shadow-lg bg-base-100 rounded-xl py-5">
               <div>
-                <img className="w-14 ml-[-1rem]" src={asset35} alt="" />
+                <img className="w-14 ml-[-1rem]" src={asset37} alt="" />
               </div>
               <div>
                 <h1 className="text-secondary text-xl mb-2">

@@ -9,16 +9,18 @@ const BulkSms = () => {
   return (
     <div>
       <SubNavbar></SubNavbar>
-      <div className="bulk-container h-full pb-10">
+      <div className="bulk-container h-full pb-28">
         <div className="flex justify-center items-center h-screen">
           <div>
             <div className="px-5">
-              <h1 className="text-white text-4xl">
+              <h1 className="text-white text-4xl fixed mt-[-9rem]">
                 BUSINESS <br /> MANAGEMENT <br /> SOLUTIONS
               </h1>
-              <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+              <h4 className="text-xl mt-10 text-white uppercase fixed">
+                Service
+              </h4>
               <progress
-                class="progress progress-warning w-56 "
+                class="progress progress-warning w-56 fixed mt-20 "
                 value="100"
                 max="100"
               ></progress>
@@ -26,10 +28,10 @@ const BulkSms = () => {
           </div>
           <div
             className="px-5 flex
-          flex-col items-center  md:px-36 mt-28"
+          flex-col items-center  md:px-36 mt-5"
           >
-            <div className="">
-              <p className="p-5 rounded-xl bg-base-100">
+            <div className=" ml-96">
+              <p className="p-5 rounded-xl bg-base-100 mb-6">
                 We provide a comprehensive messaging platform that has
                 integration with bulk SMS, WhatsApp, and email. We have Sorted
                 Database of <span className="font-bold">1.5 corer</span> users
@@ -40,8 +42,8 @@ const BulkSms = () => {
                 initiating a selling funnel.
               </p>
             </div>
-            <div className="mt-10 grid grid-cols-3 gap-10">
-              <div className="p-5 rounded-lg bg-base-100 w-32">
+            <div className="mt-14 grid grid-cols-3 gap-10 ml-96">
+              <div className="p-5 rounded-lg bg-base-100 w-32 h-28">
                 <img className="w-10 h-10 mx-auto" src={photo1} alt="" />
                 <p className="text-center mt-3 text-xs">WhatsApp Messaging</p>
               </div>
@@ -51,7 +53,7 @@ const BulkSms = () => {
                   Masterkey User Database & SMS Platform
                 </p>
               </div>
-              <div className="p-5 rounded-lg bg-base-100 w-36">
+              <div className="p-5 rounded-lg bg-base-100 w-36 h-28">
                 <img className="w-14 mx-auto" src={photo3} alt="" />
                 <p className="text-center text-xs mt-3">Email Services</p>
               </div>

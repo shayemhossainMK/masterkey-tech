@@ -6,4 +6,5 @@
     ),
     url(../../../images//services//Picture16.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
