@@ -38,11 +38,11 @@ const PersonalBranding = () => {
         </div>
         <div className="flex justify-center items-center">
           <div>
-            <img className="w-56" src={photo1} alt="" />
+            <img className="w-56 branding-img" src={photo1} alt="" />
           </div>
           <div>
             <img className="w-60 mx-10" src={photo2} alt="" />
-            <h1 className="text-xl text-white mt-[-3rem] mx-14">
+            <h1 className="text-xl text-white mt-[-3rem]  mx-14">
               <Typewriter
                 options={{
                   autoStart: true,
@@ -54,8 +54,8 @@ const PersonalBranding = () => {
             </h1>
           </div>
           <div>
-            <img className="w-56" src={photo3} alt="" />
-            <img className="w-56" src={photo4} alt="" />
+            <img className="w-56 branding-img" src={photo3} alt="" />
+            <img className="w-56 branding-img" src={photo4} alt="" />
           </div>
         </div>
       </div>

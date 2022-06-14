@@ -1,0 +1,6 @@
+.branding-img {
+  transition: all ease-in-out 0.4s;
+}
+.branding-img:hover {
+  transform: scale(1.1);
+}
