@@ -6,8 +6,10 @@ import Contact from "../Contact/Contact";
 import About from "../About/About";
 import serviceImg from "../../images/Picture1.png";
 import "./HomeTwo.css";
+import Services from "../Services/Services";
 
 import Home from "../Home/Home";
+import Spider from "../Spider/Spider";
 const HomeTwo = () => {
   const settings = {
     // dots: true,
@@ -20,9 +22,9 @@ const HomeTwo = () => {
     // pauseOnHover: false,
     dots: true,
     infinite: true,
-    speed: 2000,
+    speed: 3000,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 7000,
     slidesToShow: 1,
     slidesToScroll: 1,
     pauseOnHover: false,
@@ -62,9 +64,6 @@ const HomeTwo = () => {
             </div>
           </div>
           <div>
-            <img className="home-img w-screen" src={serviceImg} alt="" />
-          </div>
-          <div>
             <About></About>
           </div>
           <div>
@@ -72,6 +71,9 @@ const HomeTwo = () => {
           </div>
         </Slider>
       </div>
+      <Spider></Spider>
+      <About></About>
+      <Contact></Contact>
     </div>
   );
 };

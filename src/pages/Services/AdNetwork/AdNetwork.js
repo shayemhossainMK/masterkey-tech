@@ -16,9 +16,9 @@ const AdNetwork = () => {
     <div>
       <SubNavbar></SubNavbar>
       <div className="flex">
-        <div className="network-img h-screen sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+        <div className="network-img h-full scroll-smooth sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
           <img
-            className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
+            className="w-full h-full mix-blend-overlay relative z-10 opacity-70"
             src={photo2}
             alt=""
           />
