@@ -10,6 +10,8 @@ import Services from "../Services/Services";
 
 import Home from "../Home/Home";
 import Spider from "../Spider/Spider";
+import Footer from "../../shared/Footer/Footer";
+import FooterTwo from "../../shared/FooterTwo/FooterTwo";
 const HomeTwo = () => {
   const settings = {
     // dots: true,
@@ -20,39 +22,13 @@ const HomeTwo = () => {
     // autoplay: true,
     // autoplaySpeed: 7000,
     // pauseOnHover: false,
-    dots: true,
-    infinite: true,
-    speed: 3000,
-    autoplay: true,
-    autoplaySpeed: 7000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    pauseOnHover: false,
-    appendDots: (dots) => (
-      <div
-        style={{
-          backgroundColor: "transparent",
-          borderRadius: "10px",
-          padding: "10px",
-        }}
-      >
-        <ul style={{ margin: "0px" }}> {dots} </ul>
-      </div>
-    ),
-    customPaging: (i) => (
-      <div
-        style={{
-          width: "25px",
-          marginTop: "-35px",
-          color: "white",
-          background: "#ED6949",
-          border: "1px #65509C solid",
-          borderRadius: "20px",
-        }}
-      >
-        {i + 1}
-      </div>
-    ),
+    // infinite: true,
+    // speed: 3000,
+    // autoplay: true,
+    // autoplaySpeed: 7000,
+    // slidesToShow: 1,
+    // slidesToScroll: 1,
+    // pauseOnHover: false,
   };
   return (
     <div>
@@ -74,6 +50,7 @@ const HomeTwo = () => {
       <Spider></Spider>
       <About></About>
       <Contact></Contact>
+      <FooterTwo></FooterTwo>
     </div>
   );
 };

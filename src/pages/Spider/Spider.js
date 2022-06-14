@@ -12,7 +12,7 @@ import service8 from "../../images/services/Asset 2.svg";
 
 const Spider = () => {
   return (
-    <div className="spider-container relative h-full">
+    <div className="spider-container relative h-full mt-[-10px]">
       <div className="flex justify-center items-center h-screen ">
         <img className="w-[500px]" src={spider} alt="" />
       </div>
