@@ -1,5 +1,5 @@
 import React from "react";
-import photo2 from "../../../images/photo2.jpeg";
+import photo2 from "../../../images/Picture2.jpg";
 import asset29 from "../../../images/serviceImg/digital-marketing/Asset 29.svg";
 import asset28 from "../../../images/serviceImg/digital-marketing/Asset 28.svg";
 import asset27 from "../../../images/serviceImg/digital-marketing/Asset 27.svg";
@@ -16,19 +16,21 @@ const DigitalMarketing = () => {
       <SubNavbar></SubNavbar>
       <div className="">
         <div className="flex ">
-          <div className="business-img h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+          <div className="h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className="w-full h-full mix-blend-overlay relative z-10 opacity-70"
+              className="w-full h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo2}
               alt=""
             />
             <div className=" absolute top-56 z-20 px-5">
-              <h1 className="text-white text-4xl">
+              <h1 className="text-white text-4xl fixed">
                 DIGITAL <br /> MARKETING <br /> SOLUTIONS
               </h1>
-              <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+              <h4 className="text-xl text-white uppercase fixed mt-36">
+                Service
+              </h4>
               <progress
-                class="progress progress-warning w-56 "
+                class="progress progress-warning w-56 fixed mt-44 "
                 value="20"
                 max="100"
               ></progress>
@@ -36,11 +38,9 @@ const DigitalMarketing = () => {
           </div>
           <div className="py-5 ml-[-4rem] z-20">
             <div className="flex">
-              <div className="px-10 py-1 bg-base-100 rounded-lg shadow-2xl">
-                <img className="w-12 mx-auto" src={asset29} alt="" />
-                <p className="text-center">
-                  <small>Email Marketing</small>
-                </p>
+              <div className="px-10 py-3 bg-base-100 rounded-lg shadow-2xl">
+                <img className="w-10 mx-auto" src={asset29} alt="" />
+                <p className="text-center text-xs mt-2">Email Marketing</p>
               </div>
               <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-xl">
                 <p>
@@ -51,10 +51,10 @@ const DigitalMarketing = () => {
               </div>
             </div>
             <div className="flex mt-5">
-              <div className="px-7 py-2 bg-base-100 rounded-lg shadow-2xl">
+              <div className="px-7 py-3 bg-base-100 rounded-lg shadow-2xl">
                 <img className="w-12 mx-auto" src={asset28} alt="" />
-                <p className="text-center">
-                  <small>Social media marketing</small>
+                <p className="text-center text-xs mt-2">
+                  Social media marketing
                 </p>
               </div>
               <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
@@ -66,9 +66,9 @@ const DigitalMarketing = () => {
               </div>
             </div>
             <div className="flex  mt-5">
-              <div className="px-8 py-2 bg-base-100 rounded-lg shadow-2xl">
-                <img className="w-12 mx-auto" src={asset27} alt="" />
-                <p className="text-xs text-center">
+              <div className="px-[26px] py-1 bg-base-100 rounded-lg shadow-2xl">
+                <img className="w-11 mx-auto" src={asset27} alt="" />
+                <p className="text-xs text-center mt-2">
                   Multimedia content development
                 </p>
               </div>
@@ -82,9 +82,11 @@ const DigitalMarketing = () => {
               </div>
             </div>
             <div className="flex  mt-5">
-              <div className="px-12 py-2 bg-base-100 rounded-lg shadow-2xl">
-                <img className="w-12 mx-auto" src={asset26} alt="" />
-                <p className="text-xs text-center mt-2">School Software</p>
+              <div className="px-11 py-1 bg-base-100 rounded-lg shadow-2xl">
+                <img className="w-10 mx-auto" src={asset26} alt="" />
+                <p className="text-xs text-center mt-2">
+                  Mobile content solution
+                </p>
               </div>
               <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
                 <p className="">
@@ -97,7 +99,22 @@ const DigitalMarketing = () => {
               </div>
             </div>
             <div className="flex  mt-5">
-              <div className="px-12 py-2 bg-base-100 rounded-lg shadow-2xl">
+              <div className="px-11 py-3 bg-base-100 rounded-lg shadow-2xl">
+                <img className="w-10 mx-auto" src={asset26} alt="" />
+                <p className="text-xs text-center mt-2">Email Marketing</p>
+              </div>
+              <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
+                <p className="">
+                  Mobile content management (MCM) is a set of technologies that
+                  provide secure access to corporate data on smartphones,
+                  tablets, and other endpoint devices. The main component of a
+                  mobile content management system is a file storage and file
+                  sharing service.
+                </p>
+              </div>
+            </div>
+            <div className="flex  mt-5">
+              <div className="px-[50px] py-4 bg-base-100 rounded-lg shadow-2xl">
                 <img className="w-12 mx-auto" src={asset23} alt="" />
                 <p className="text-xs text-center mt-2">SEO services</p>
               </div>
@@ -113,8 +130,8 @@ const DigitalMarketing = () => {
             </div>
             <div className="flex  mt-5">
               <div className="px-7 py-2 bg-base-100 rounded-lg shadow-2xl">
-                <img className="w-12 mx-auto" src={asset24} alt="" />
-                <p className="text-xs text-center mt-2">
+                <img className="w-10 mx-auto" src={asset24} alt="" />
+                <p className="text-xs text-center mt-1">
                   Conversation rate optimization
                 </p>
               </div>
@@ -128,23 +145,7 @@ const DigitalMarketing = () => {
               </div>
             </div>
             <div className="flex  mt-5">
-              <div className="px-7 py-2 bg-base-100 rounded-lg shadow-2xl">
-                <img className="w-12 mx-auto" src={asset24} alt="" />
-                <p className="text-xs text-center mt-2">
-                  Conversation rate optimization
-                </p>
-              </div>
-              <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
-                <p className="">
-                  CRO strategy is designed to convert more of your visitors into
-                  paying customers. We will aid you convert your target
-                  audiences into paying customers. Our enriched library of user
-                  data has proven result oriented strategies
-                </p>
-              </div>
-            </div>
-            <div className="flex  mt-5">
-              <div className="px-11 py-2 bg-base-100 rounded-lg shadow-2xl">
+              <div className="px-12 py-3 bg-base-100 rounded-lg shadow-2xl">
                 <img className="w-12 mx-auto" src={asset25} alt="" />
                 <p className="text-xs text-center mt-2">Total branding</p>
               </div>
