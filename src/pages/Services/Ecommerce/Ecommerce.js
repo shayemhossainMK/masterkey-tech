@@ -15,17 +15,19 @@ const Ecommerce = () => {
         <div className="flex ">
           <div className=" sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className=" ecommerce-img h-[500px] mix-blend-overlay relative z-10 opacity-70"
+              className=" w-full h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo1}
               alt=""
             />
             <div className=" absolute top-56 z-20 px-5">
-              <h1 className="text-white text-4xl">
+              <h1 className="text-white text-4xl fixed">
                 E-COMMERCE <br /> SOLUTIONS
               </h1>
-              <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
+              <h4 className="text-xl text-white uppercase fixed mt-32">
+                Service
+              </h4>
               <progress
-                class="progress progress-warning w-56 "
+                class="progress progress-warning w-56 fixed mt-40 "
                 value="50"
                 max="100"
               ></progress>
@@ -33,10 +35,10 @@ const Ecommerce = () => {
           </div>
           <div className="pt-5 ml-[-4rem] z-20">
             <div className="flex">
-              <div className="px-7 py-1 bg-base-100 rounded-lg shadow-2xl">
-                <img className="w-12 mx-auto" src={asset32} alt="" />
-                <p className="text-center">
-                  <small>E-commerce Website/App</small>
+              <div className="px-10 py-4 bg-base-100 rounded-lg shadow-2xl">
+                <img className="w-10 mx-auto" src={asset32} alt="" />
+                <p className="text-center text-xs mt-2">
+                  E-commerce Website/App
                 </p>
               </div>
               <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-xl">
@@ -50,10 +52,10 @@ const Ecommerce = () => {
               </div>
             </div>
             <div className="flex mt-5">
-              <div className="px-8 py-2 bg-base-100 rounded-lg shadow-2xl">
+              <div className="px-11 py-4 bg-base-100 rounded-lg shadow-2xl">
                 <img className="w-12 mx-auto" src={asset31} alt="" />
-                <p className="text-center">
-                  <small>Multi Store Ecommerce</small>
+                <p className="text-center text-xs mt-2">
+                  Multi Store Ecommerce
                 </p>
               </div>
               <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
@@ -68,9 +70,9 @@ const Ecommerce = () => {
               </div>
             </div>
             <div className="flex  mt-5">
-              <div className="px-8 py-4 bg-base-100 rounded-lg shadow-2xl">
+              <div className="px-10 py-5 bg-base-100 rounded-lg shadow-2xl">
                 <img className="w-12 mx-auto" src={asset30} alt="" />
-                <p className="text-xs text-center">Marketplacet</p>
+                <p className="text-xs text-center mt-2">Marketplacet</p>
               </div>
               <div className="px-6 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
                 <p className="">
