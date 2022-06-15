@@ -13,8 +13,12 @@ import service8 from "../../images/services/Asset 2.svg";
 const Spider = () => {
   return (
     <div className="spider-container relative h-full mt-[-10px]">
-      <div className="flex justify-center items-center h-screen ">
-        <img className="w-[130px] md:w-[500px]" src={spider} alt="" />
+      <div className="flex justify-center items-center h-screen svg-container">
+        <img
+          className="w-[130px] md:w-[500px] absolute top-[134px] left-[425px] "
+          src={spider}
+          alt=""
+        />
       </div>
       <div className="flex items-center bg-base-100 rounded-lg w-36 md:w-60 absolute top-[295px] md:top-16 left-[122px] md:left-[560px] md:py-1">
         <img className="w-10 mr-4 pl-2" src={service1} alt="" />
