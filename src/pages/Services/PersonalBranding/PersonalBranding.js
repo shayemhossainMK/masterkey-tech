@@ -38,7 +38,7 @@ const PersonalBranding = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center mt-48">
+        <div className="flex justify-center items-center mt-48 md:mt-10">
           <div>
             <img className="w-56 branding-img" src={photo1} alt="" />
           </div>
