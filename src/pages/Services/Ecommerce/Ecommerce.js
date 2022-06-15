@@ -10,39 +10,41 @@ import "./Ecommerce.css";
 const Ecommerce = () => {
   return (
     <div>
-      <SubNavbar></SubNavbar>
+      <div className="hidden md:block md:sticky  md:top-20 md:z-50">
+        <SubNavbar></SubNavbar>
+      </div>
       <div>
-        <div className="flex ">
-          <div className=" sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+        <div className="md:flex ">
+          <div className=" md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
               className=" photo-conainer h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo1}
               alt=""
             />
             <div className=" absolute top-56 z-20 px-5">
-              <h1 className="text-white text-4xl fixed">
+              <h1 className="text-white text-4xl md:fixed">
                 E-COMMERCE <br /> SOLUTIONS
               </h1>
-              <h4 className="text-xl text-white uppercase fixed mt-32">
+              <h4 className="text-xl text-white uppercase md:fixed mt-6 md:mt-32">
                 Service
               </h4>
               <progress
-                class="progress progress-warning w-56 fixed mt-40 "
+                class="progress progress-warning w-56 md:fixed mt-2 md:mt-40 "
                 value="50"
                 max="100"
               ></progress>
             </div>
           </div>
-          <div className="pt-5 ml-[-4rem] z-20">
-            <div className="flex">
-              <div className="px-10 py-4 bg-base-100 rounded-lg shadow-2xl">
+          <div className="pt-5 pl-2 md:ml-[-4rem] z-20">
+            <div className="flex items-center md:items-stretch">
+              <div className="px-10 py-4 bg-base-100 rounded-lg shadow-2xl h-32 md:h-fit">
                 <img className="w-10 mx-auto" src={asset32} alt="" />
                 <p className="text-center text-xs mt-2">
                   E-commerce Website/App
                 </p>
               </div>
               <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-xl">
-                <p>
+                <p className="py-1 md:py-0">
                   Create a beautiful online store/e-commerce app or website and
                   start selling online. We have more than 5 years of experience
                   in developing e-commerce businesses. We can help you to set up
@@ -51,15 +53,15 @@ const Ecommerce = () => {
                 </p>
               </div>
             </div>
-            <div className="flex mt-5">
-              <div className="px-11 py-4 bg-base-100 rounded-lg shadow-2xl">
+            <div className="flex items-center md:items-stretch mt-5">
+              <div className="px-11 py-4 bg-base-100 rounded-lg shadow-2xl h-32 md:h-fit">
                 <img className="w-12 mx-auto" src={asset31} alt="" />
                 <p className="text-center text-xs mt-2">
                   Multi Store Ecommerce
                 </p>
               </div>
               <div className="px-5 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
-                <p className="">
+                <p className="py-1 md:py-0">
                   A multi-store eCommerce platform allows you to launch and
                   manage multiple stores from a single platform.
                   enterprise-level companies can offer a unique shopping
@@ -69,13 +71,13 @@ const Ecommerce = () => {
                 </p>
               </div>
             </div>
-            <div className="flex  mt-5">
-              <div className="px-10 py-5 bg-base-100 rounded-lg shadow-2xl">
+            <div className="flex items-center md:items-stretch mt-5">
+              <div className="px-10 py-5 bg-base-100 rounded-lg shadow-2xl h-32 md:h-fit">
                 <img className="w-12 mx-auto" src={asset30} alt="" />
                 <p className="text-xs text-center mt-2">Marketplacet</p>
               </div>
               <div className="px-6 flex items-center mx-5 bg-base-100 rounded-lg shadow-lg">
-                <p className="">
+                <p className="py-1 md:py-0">
                   If you are thinking of creating and maintaining your
                   marketplace we can help you to accomplish your business. We
                   have a proven track record of building and maintaining

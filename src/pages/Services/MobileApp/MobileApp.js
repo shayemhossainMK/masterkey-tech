@@ -57,9 +57,9 @@ const MobileApp = () => {
       </div>
       <div>
         <div className="md:flex">
-          <div className="md:photo-container h-[400px] md:h-full md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+          <div className="photo-container h-[400px] md:h-full md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className="  h-screen mix-blend-overlay relative z-10 opacity-70"
+              className=" h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo7}
               alt=""
             />
