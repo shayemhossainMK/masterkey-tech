@@ -45,7 +45,7 @@ const BulkSms = () => {
                 initiating a selling funnel.
               </p>
             </div>
-            <div className="mt-14 grid grid-cols-3 gap-4 md:gap-10 md:ml-96">
+            <div className="mt-14  grid grid-cols-3 gap-4 md:gap-10 md:ml-96">
               <div className="p-5 rounded-lg bg-base-100 md:w-36 h-28">
                 <img className="w-12 h-10 mx-auto" src={photo1} alt="" />
                 <p className="text-center mt-3 text-xs">WhatsApp Messaging</p>
