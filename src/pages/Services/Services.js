@@ -18,7 +18,7 @@ const Services = () => {
       <div className="hidden md:block md:sticky md:top-20">
         <SubNavbar></SubNavbar>
       </div>
-      <div className="px-3 md:px-28 pb-5 pt-2 h-full service-container">
+      <div className="px-3 md:px-28 pb-10 md:pb-16 pt-2 h-full service-container">
         <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-4 gap-10 items-center text-center">
           <Link to="/businessmanage">
             <div className="py-9 px-9 bg-base-100 hover:bg-secondary duration-500  mx-auto rounded-xl shadow-md text-secondary hover:text-base-100">
