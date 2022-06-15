@@ -14,7 +14,9 @@ import SubNavbar from "../../shared/SubNavbar/SubNavbar";
 const Services = () => {
   return (
     <div>
-      <SubNavbar></SubNavbar>
+      <div className="hidden md:block">
+        <SubNavbar></SubNavbar>
+      </div>
       <div className="px-3 md:px-28 pb-5 pt-2 h-full service-container">
         <div className="mt-10 md:mt-20 grid grid-cols-1 md:grid-cols-4 gap-10 items-center text-center">
           <Link to="/businessmanage">

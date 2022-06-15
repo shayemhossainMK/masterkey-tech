@@ -14,17 +14,23 @@ const Spider = () => {
   return (
     <div className="spider-container relative h-full mt-[-10px]">
       <div className="flex justify-center items-center h-screen ">
-        <img className="w-[500px]" src={spider} alt="" />
+        <img className="w-[130px] md:w-[500px]" src={spider} alt="" />
       </div>
-      <div className="flex items-center bg-base-100 rounded-lg w-60 absolute top-16 left-[560px] py-1">
+      <div className="flex items-center bg-base-100 rounded-lg w-36 md:w-60 absolute top-[295px] md:top-16 left-[122px] md:left-[560px] md:py-1">
         <img className="w-10 mr-4 pl-2" src={service1} alt="" />
-        <p className="text-sm">
+        <p className="text-xs md:text-sm">
           Business Management <br /> Software
         </p>
       </div>
-      <div className="flex items-center bg-base-100 rounded-lg w-60 absolute top-44 left-[175px] py-1">
-        <p className="text-right text-sm mr-3">Mobile app & Web Development</p>
-        <img className="w-10 mr-4 pl-2" src={service3} alt="" />
+      <div className="flex items-center bg-base-100 rounded-lg w-32 md:w-60 absolute top-[350px] md:top-44 left-[3px] md:left-[170px] md:py-1">
+        <p className="text-right text-xs md:text-sm mr-0 md:mr-3">
+          Mobile app & Web Development
+        </p>
+        <img
+          className="w-7 md:w-10 mr-1 md:mr-4 pl-1 md:pl-2"
+          src={service3}
+          alt=""
+        />
       </div>
       <div className="flex items-center bg-base-100 py-2 rounded-lg w-60 absolute top-[175px] left-[944px]">
         <img className="w-12 mr-3 pl-2 " src={service7} alt="" />

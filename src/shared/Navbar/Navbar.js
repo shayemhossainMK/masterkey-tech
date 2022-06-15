@@ -33,8 +33,53 @@ const Navbar = () => {
                 <li>
                   <CustomLink to="/">Home</CustomLink>
                 </li>
-                <li>
-                  <CustomLink to="/services">What we do</CustomLink>
+                <li tabindex="0">
+                  <Link to="/services" class="justify-between">
+                    What we do
+                    <svg
+                      class="fill-current"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                    </svg>
+                  </Link>
+                  <ul class="p-1 bg-base-100">
+                    <li>
+                      <Link to="/businessmanage">
+                        Business Management <br /> Software
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/digitalmarketing">
+                        Digital Marketing <br /> Solutions
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/mobileapp">
+                        Mobile app & <br /> Web Development
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/ecommerce">E-Commerce Solution</Link>
+                    </li>
+                    <li>
+                      <Link to="/affiliate">
+                        Affiliate Marketing <br /> Solutions
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/adnetwork">Ad Network Solutions</Link>
+                    </li>
+                    <li>
+                      <Link to="/personalbranding">Personal Branding</Link>
+                    </li>
+                    <li>
+                      <Link to="/bulksms">Bulk SMS Services</Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <CustomLink to="/partners">Our Partners</CustomLink>
