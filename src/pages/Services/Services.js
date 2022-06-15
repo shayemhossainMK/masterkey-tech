@@ -14,7 +14,7 @@ import SubNavbar from "../../shared/SubNavbar/SubNavbar";
 const Services = () => {
   return (
     <div>
-      <div className="hidden md:block">
+      <div className="hidden md:block md:sticky md:top-20">
         <SubNavbar></SubNavbar>
       </div>
       <div className="px-3 md:px-28 pb-5 pt-2 h-full service-container">
