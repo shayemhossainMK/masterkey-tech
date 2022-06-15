@@ -14,40 +14,42 @@ import photo4 from "../../../images/services/Picture4.png";
 const AdNetwork = () => {
   return (
     <div>
-      <SubNavbar></SubNavbar>
-      <div className="flex">
-        <div className="network-img h-full scroll-smooth sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+      <div className="hidden md:block md:sticky  md:top-20 md:z-50">
+        <SubNavbar></SubNavbar>
+      </div>
+      <div className="md:flex">
+        <div className="network-img h-full scroll-smooth md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
           <img
             className="w-full h-full mix-blend-overlay relative z-10 opacity-70"
             src={photo2}
             alt=""
           />
           <div className=" absolute top-56 z-20 px-5">
-            <div className="w-60 fixed mt-[-70px]">
+            <div className="w-60 md:fixed mt-[-70px]">
               <img className="w-28 mb-4" src={photo4} alt="" />
             </div>
-            <h1 className="text-white text-4xl fixed ">
+            <h1 className="text-white text-4xl md:fixed ">
               ADS NETWORK <br /> SUPPORT
             </h1>
-            <h4 className="text-xl text-white uppercase fixed mt-32">
+            <h4 className="text-xl text-white uppercase md:fixed mt-7 md:mt-32">
               Service
             </h4>
             <progress
-              class="progress progress-warning w-56 fixed mt-40 "
+              class="progress progress-warning w-56 md:fixed mt-2 md:mt-40 "
               value="80"
               max="100"
             ></progress>
           </div>
         </div>
-        <div className="px-5 my-7 ml-5">
-          <h1 className="text-3xl text-primary space-y-5">
+        <div className="px-5 my-7 md:ml-5">
+          <h1 className="text-2xl md:text-3xl text-primary space-y-5">
             MK ADS DIGITAL BRINGS <br />
             <span className="text-red-500 underline">QUALITY TRAFFIC</span> THAT
             MAKES <br />{" "}
             <span className="text-red-500 underline">CONVERSION</span> EASIER.
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5 md:mt-20">
-            <div className="px-3 py-3 text-center rounded-xl bg-base-100 shadow-2xl">
+            <div className="px-3 mt-5 py-3 text-center rounded-xl bg-base-100 shadow-2xl">
               <img className="w-8 mx-auto" src={asset42} alt="" />
               <h1 className="text-3xl text-secondary my-2">1500+</h1>
               <p>Publishers App & Web</p>
