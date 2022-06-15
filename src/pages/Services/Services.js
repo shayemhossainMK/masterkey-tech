@@ -10,6 +10,7 @@ import service7 from "../../images/services/Asset 3.svg";
 import service8 from "../../images/services/Asset 2.svg";
 import { Link } from "react-router-dom";
 import SubNavbar from "../../shared/SubNavbar/SubNavbar";
+import FooterTwo from "../../shared/FooterTwo/FooterTwo";
 
 const Services = () => {
   return (
@@ -73,6 +74,7 @@ const Services = () => {
           </Link>
         </div>
       </div>
+      <FooterTwo></FooterTwo>
     </div>
   );
 };
