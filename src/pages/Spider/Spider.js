@@ -15,7 +15,7 @@ const Spider = () => {
     <div className="spider-container relative h-full mt-[-10px]">
       <div className="flex justify-center items-center h-screen svg-container">
         <img
-          className="w-[130px] md:w-[500px] absolute top-[134px] left-[425px] "
+          className="w-[130px] md:w-[500px] absolute top-[138px] left-[425px] "
           src={spider}
           alt=""
         />
@@ -26,7 +26,7 @@ const Spider = () => {
           Business Management <br /> Software
         </p>
       </div>
-      <div className="flex items-center bg-base-100 rounded-lg w-32 md:w-60 absolute top-[350px] md:top-44 left-[3px] md:left-[170px] md:py-1">
+      <div className="flex items-center bg-base-100 rounded-lg w-32 md:w-60 absolute top-[350px] md:top-[178px] left-[3px] md:left-[170px] md:py-1">
         <p className="text-right text-xs md:text-sm mr-0 md:mr-3">
           Mobile app & Web Development
         </p>
@@ -40,11 +40,11 @@ const Spider = () => {
         <img className="w-12 mr-3 pl-2 " src={service7} alt="" />
         <p className="text-sm">Personal Branding</p>
       </div>
-      <div className="flex items-center justify-evenly bg-base-100  rounded-lg w-60 absolute top-[300px] left-[170px] py-3">
+      <div className="flex items-center justify-evenly bg-base-100  rounded-lg w-60 absolute top-[296px] left-[170px] py-3">
         <p className="text-right pl-2 text-sm">E-Commerce Solution</p>
         <img className="w-8 mr-2" src={service4} alt="" />
       </div>
-      <div className="flex items-center bg-base-100  rounded-lg w-60 absolute top-[290px] left-[944px] py-1">
+      <div className="flex items-center bg-base-100  rounded-lg w-60 absolute top-[296px] left-[944px] py-1">
         <img className="w-10 pl-2" src={service2} alt="" />
         <p className="ml-4 text-sm">
           Digital Marketing <br /> Solutions
@@ -54,7 +54,7 @@ const Spider = () => {
         <p className="text-right text-sm">Bulk SMS Services</p>
         <img className="w-10 pl-2" src={service8} alt="" />
       </div>
-      <div className="flex items-center bg-base-100  rounded-lg w-60 absolute top-[415px] left-[944px] py-1">
+      <div className="flex items-center bg-base-100  rounded-lg w-60 absolute top-[418px] left-[944px] py-1">
         <img className="w-12 mr-4 pl-2" src={service5} alt="" />
         <p className="text-sm">
           Affiliate Marketing <br /> Solutions
