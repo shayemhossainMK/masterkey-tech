@@ -22,22 +22,24 @@ import Typewriter from "typewriter-effect";
 
 const MobileApp = () => {
   return (
-    <div>
-      <SubNavbar></SubNavbar>
+    <div className="pb-10 md:pb-0">
+      <div className="hidden md:block md:sticky  md:top-20 md:z-50">
+        <SubNavbar></SubNavbar>
+      </div>
       <div>
         <div className="app-container h-[80vh]">
-          <h1 className="text-4xl text-white text-center pt-5 md:pt-8">
+          <h1 className="text-3xl md:text-4xl text-white text-center pt-28 md:pt-8">
             MOBILE APP & WEB DEVLOPMENT
           </h1>
           <p
-            className="text-white text-center text-xl mt-5 "
+            className="text-white text-center text-sm md:text-xl mt-5 "
             data-aos="fade-down"
             data-aos-duration="1000"
           >
             Our versatile and super-talented tech team can <br /> provide
             solutions to your needs.
           </p>
-          <h1 className="text-5xl text-white text-center mt-20">
+          <h1 className="text-3xl md:text-5xl text-white text-center mt-20">
             You Name it,
             <br />
             <span>
@@ -54,14 +56,14 @@ const MobileApp = () => {
         </div>
       </div>
       <div>
-        <div className="flex">
-          <div className="photo-container h-full sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+        <div className="md:flex">
+          <div className="md:photo-container h-[400px] md:h-full md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
               className="  h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo7}
               alt=""
             />
-            <div className=" absolute top-56 z-20 px-5">
+            <div className=" absolute top-[850px] md:top-56 z-20 px-5">
               <h1 className="text-white text-4xl">
                 MOBILE APP <br /> & WEB <br /> DEVLOPMENT
               </h1>
@@ -74,7 +76,7 @@ const MobileApp = () => {
             </div>
           </div>
           <div className="mx-5 py-10">
-            <div className="grid grid-cols-4 justify-center gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-4 justify-center gap-5">
               <div className=" p-5 shadow-xl rounded-xl">
                 <img className="w-20 mx-auto mb-3" src={img1} alt="" />
                 <p className="text-center text-xs">Website Development</p>
