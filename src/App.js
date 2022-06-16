@@ -19,6 +19,7 @@ import BulkSms from "./pages/Services/BulkSms/BulkSms";
 import HomeTwo from "./pages/Home2/HomeTwo";
 import AboutContainer from "./pages/AboutContainer/AboutContainer";
 import ContactContainer from "./pages/ContactContainer/ContactContainer";
+import HomeServices from "./pages/HomeService/HomeService";
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,10 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeTwo></HomeTwo>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
+        <Route
+          path="/homeservices"
+          element={<HomeServices></HomeServices>}
+        ></Route>
         <Route
           path="/businessmanage"
           element={<BusinessManage></BusinessManage>}

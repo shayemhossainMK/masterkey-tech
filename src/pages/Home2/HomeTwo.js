@@ -11,6 +11,7 @@ import Home from "../Home/Home";
 import Spider from "../Spider/Spider";
 import Footer from "../../shared/Footer/Footer";
 import FooterTwo from "../../shared/FooterTwo/FooterTwo";
+import HomeServices from "../HomeService/HomeService";
 const HomeTwo = () => {
   const settings = {
     // dots: true,
@@ -46,7 +47,12 @@ const HomeTwo = () => {
           </div>
         </Slider>
       </div>
-      <Spider></Spider>
+      <div className="block md:hidden">
+        <HomeServices></HomeServices>
+      </div>
+      <div className="hidden md:block">
+        <Spider></Spider>
+      </div>
       <About></About>
       <Contact></Contact>
       <FooterTwo></FooterTwo>
