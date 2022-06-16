@@ -59,7 +59,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link to="/mobileapp">
-                        Mobile app & <br /> Web Development
+                        Mobile App & <br /> Web Development
                       </Link>
                     </li>
                     <li>
@@ -88,7 +88,7 @@ const Navbar = () => {
                   <CustomLink to="/about">About Us</CustomLink>
                 </li>
                 <li>
-                  <CustomLink to="/contact">Contact us</CustomLink>
+                  <CustomLink to="/contact">Contact Us</CustomLink>
                 </li>
               </ul>
             </div>
@@ -104,7 +104,7 @@ const Navbar = () => {
                 <CustomLink to="/">Home</CustomLink>
               </li>
               <li>
-                <CustomLink to="/services">What we do</CustomLink>
+                <CustomLink to="/services">What We Do</CustomLink>
               </li>
               <li>
                 <CustomLink to="/partners">Our Partners</CustomLink>
@@ -113,7 +113,7 @@ const Navbar = () => {
                 <CustomLink to="/about">About Us</CustomLink>
               </li>
               <li>
-                <CustomLink to="/contact">Contact us</CustomLink>
+                <CustomLink to="/contact">Contact Us</CustomLink>
               </li>
             </ul>
           </div>
