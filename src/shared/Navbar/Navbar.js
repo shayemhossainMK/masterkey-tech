@@ -110,10 +110,10 @@ const Navbar = () => {
                 <CustomLink to="/partners">Our Partners</CustomLink>
               </li>
               <li>
-                <CustomLink to="/about">About Us</CustomLink>
+                <CustomLink to="/aboutcontainer">About Us</CustomLink>
               </li>
               <li>
-                <CustomLink to="/contact">Contact Us</CustomLink>
+                <CustomLink to="/contactcontainer">Contact Us</CustomLink>
               </li>
             </ul>
           </div>

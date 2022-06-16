@@ -17,6 +17,8 @@ import { useEffect } from "react";
 import PersonalBranding from "./pages/Services/PersonalBranding/PersonalBranding";
 import BulkSms from "./pages/Services/BulkSms/BulkSms";
 import HomeTwo from "./pages/Home2/HomeTwo";
+import AboutContainer from "./pages/AboutContainer/AboutContainer";
+import ContactContainer from "./pages/ContactContainer/ContactContainer";
 
 function App() {
   useEffect(() => {
@@ -49,7 +51,15 @@ function App() {
         ></Route>
         <Route path="/bulksms" element={<BulkSms></BulkSms>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route
+          path="/aboutcontainer"
+          element={<AboutContainer></AboutContainer>}
+        ></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route
+          path="/contactcontainer"
+          element={<ContactContainer></ContactContainer>}
+        ></Route>
       </Routes>
     </div>
   );
