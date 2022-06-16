@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Contact from "../Contact/Contact";
 import About from "../About/About";
-import serviceImg from "../../images/Picture1.png";
 import "./HomeTwo.css";
 import Services from "../Services/Services";
 

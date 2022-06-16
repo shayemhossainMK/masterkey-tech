@@ -1,12 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../images/logopng.png";
+import photo4 from "../../images/Picture3.png";
 
 const FooterTwo = () => {
   return (
     <div>
       <footer class="footer p-10 bg-neutral text-base-100">
         <div>
-          <img src={logo} alt="" />
+          <Link to="/">
+            <img className="w-36" src={photo4} alt="" />
+          </Link>
           <p>
             Masterkey Technologies Ltd.
             <br />
@@ -15,17 +19,34 @@ const FooterTwo = () => {
         </div>
         <div>
           <span class="footer-title">Services</span>
-          <a class="link link-hover">Business Management</a>
-          <a class="link link-hover">Digital Marketing</a>
-          <a class="link link-hover">Web Development</a>
-          <a class="link link-hover">E-Commerce Solution</a>
+          <Link to="/businessmanage" class="link link-hover">
+            Business Management
+          </Link>
+          <Link to="/digitalmarketing" class="link link-hover">
+            Digital Marketing
+          </Link>
+          <Link to="/mobileapp" class="link link-hover">
+            Web Development
+          </Link>
+          <Link to="/ecommerce" class="link link-hover">
+            E-Commerce Solution
+          </Link>
+          <Link to="/services" class="link link-hover">
+            See all.....
+          </Link>
         </div>
         <div>
-          <span class="footer-title">Company</span>
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">What we do</a>
-          <a class="link link-hover">Press kit</a>
+          <span class="footer-title">Menu</span>
+          <Link to="/about" class="link link-hover">
+            About us
+          </Link>
+          <Link to="/contact" class="link link-hover">
+            Contact
+          </Link>
+          <Link to="/services" class="link link-hover">
+            What we do
+          </Link>
+          <a class="link link-hover">Our Partners</a>
         </div>
         <div>
           <span class="footer-title">Legal</span>
