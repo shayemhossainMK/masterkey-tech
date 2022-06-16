@@ -1,83 +1,78 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import service1 from "../../images/services/Asset 8.svg";
-import service2 from "../../images/services/Asset 9.svg";
-import service3 from "../../images/services/Asset 10.svg";
-import service4 from "../../images/services/Asset 7.svg";
-import service5 from "../../images/services/Asset 6.svg";
-import service6 from "../../images/services/Asset 4.svg";
-import service7 from "../../images/services/Asset 3.svg";
-import service8 from "../../images/services/Asset 2.svg";
+import service1 from "../../images/serviceWhiteImg/Asset 90.svg";
+import service2 from "../../images/serviceWhiteImg/Asset 91.svg";
+import service3 from "../../images/serviceWhiteImg/Asset 92.svg";
+import service4 from "../../images/serviceWhiteImg/Asset 89.svg";
+import service5 from "../../images/serviceWhiteImg/Asset 88.svg";
+import service6 from "../../images/serviceWhiteImg/Asset 86.svg";
+import service7 from "../../images/serviceWhiteImg/Asset 85.svg";
+import service8 from "../../images/serviceWhiteImg/Asset 84.svg";
 import CustomLink from "../CustomLink/CustomLink";
 import "./Subnavbar.css";
+import CustomLinkTwo from "../CustomLinkTwo/CustomLinkTwo";
 
 const SubNavbar = () => {
   return (
-    <div className="bg-secondary py-3 mt-1 shadow-lg md:sticky top-20 z-40">
+    <div className="py-3 mt-1 bg-secondary shadow-lg md:sticky top-20 z-40">
       <ul className="flex justify-center items-center">
         <li className="mx-2 shadow-xl rounded-md  subnav-btn">
-          <Link to="/businessmanage">
-            <div className="flex text-white text-xs p-1 shadow-xl">
-              <img className="w-4 mr-1" src={service1} alt="" />
+          <div className="flex text-xs p-1">
+            <img className="w-4 mr-1" src={service1} alt="" />
+            <CustomLinkTwo to="/businessmanage">
               <span>Business Management</span>
-            </div>
-          </Link>
+            </CustomLinkTwo>
+          </div>
         </li>
         <li className="mx-2  shadow-xl rounded-md  subnav-btn ">
-          <Link to="/digitalmarketing">
-            <div className="flex text-white shadow-xl text-xs p-1">
-              <img className="w-4 mr-1" src={service2} alt="" />
+          <div className="flex text-xs p-1">
+            <img className="w-4 mr-1" src={service2} alt="" />
+            <CustomLinkTwo to="/digitalmarketing">
               Digital Marketing
-            </div>
-          </Link>
+            </CustomLinkTwo>
+          </div>
         </li>
         <li className="mx-2 shadow-xl rounded-md  subnav-btn ">
-          <Link to="/mobileapp">
-            <div className="flex text-white text-xs shadow-xl p-1">
-              <img className="w-5 mr-1" src={service3} alt="" />
+          <div className="flex text-xs  p-1">
+            <img className="w-5 mr-1" src={service3} alt="" />
+            <CustomLinkTwo to="/mobileapp">
               Mobile app & Web Development
-            </div>
-          </Link>
+            </CustomLinkTwo>
+          </div>
         </li>
         <li className="mx-2 shadow-xl first-line: rounded-md  subnav-btn">
-          <Link to="/ecommerce">
-            <div className="flex text-white text-xs p-1 shadow-xl">
-              <img className="w-4 mr-1" src={service4} alt="" />
-              E-Commerce Solution
-            </div>
-          </Link>
+          <div className="flex text-xs p-1 ">
+            <img className="w-4 mr-1" src={service4} alt="" />
+            <CustomLinkTwo to="/ecommerce">E-Commerce Solution </CustomLinkTwo>
+          </div>
         </li>
         <li className="mx-2 shadow-xl rounded-md  subnav-btn">
-          <Link to="/affiliate">
-            <div className="flex text-white shadow-xl text-xs p-1">
-              <img className="w-5 mr-1" src={service5} alt="" />
+          <div className="flex text-xs p-1">
+            <img className="w-5 mr-1" src={service5} alt="" />
+            <CustomLinkTwo to="/affiliate">
               Affiliate Marketing Solutions
-            </div>
-          </Link>
+            </CustomLinkTwo>
+          </div>
         </li>
         <li className="mx-2 shadow-xl rounded-md  subnav-btn">
-          <Link to="/adnetwork">
-            <div className="flex text-white shadow-xl text-xs p-1">
-              <img className="w-4 mr-1" src={service6} alt="" />
-              Ad Network Solutions
-            </div>
-          </Link>
+          <div className="flex text-xs p-1">
+            <img className="w-4 mr-1" src={service6} alt="" />
+            <CustomLinkTwo to="/adnetwork">Ad Network Solutions </CustomLinkTwo>
+          </div>
         </li>
         <li className="mx-2 shadow-xl rounded-md subnav-btn">
-          <Link to="/personalbranding">
-            <div className="flex text-white shadow-xl text-xs p-1">
-              <img className="w-4 mr-1" src={service7} alt="" />
-              Personal Branding
-            </div>
-          </Link>
+          <div className="flex text-xs p-1">
+            <img className="w-4 mr-1" src={service7} alt="" />
+            <CustomLinkTwo to="/personalbranding">
+              Personal Branding{" "}
+            </CustomLinkTwo>
+          </div>
         </li>
         <li className="mx-2 shadow-xl rounded-md subnav-btn">
-          <Link to="/bulksms">
-            <div className="flex text-white text-xs shadow-xl p-1">
-              <img className="w-3 mr-1" src={service8} alt="" />
-              Bulk SMS Services
-            </div>
-          </Link>
+          <div className="flex text-xs p-1">
+            <img className="w-3 mr-1" src={service8} alt="" />
+            <CustomLinkTwo to="/bulksms">Bulk SMS </CustomLinkTwo>
+          </div>
         </li>
       </ul>
     </div>
