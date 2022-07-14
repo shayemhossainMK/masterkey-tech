@@ -125,9 +125,13 @@ const AdNetwork = () => {
             </div>
           </div>
           <div className="mt-10">
-            <button className="btn  btn-secondary w-full px-20 text-white">
+            <a
+              target="_blank"
+              href="https://mkadsdigital.com/"
+              className="btn  btn-secondary w-full px-20 text-white"
+            >
               EXPLORE MORE: WWW.MKADSDIGITAL.COM
-            </button>
+            </a>
           </div>
         </div>
       </div>
