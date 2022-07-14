@@ -10,7 +10,9 @@ const Home = () => {
     <div className="flex flex-col" style={{ height: "100vh" }}>
       <video src={homeVideo} autoPlay loop muted></video>
       <div className="containt px-2 md:px-10 mt-52 md:mt-36">
-        <h1 className="text-3xl mb-4  text-base-100">We talk solutions that</h1>
+        <h1 className="text-3xl mb-4  text-base-100 ">
+          We talk solutions that
+        </h1>
         <span className="text-secondary text-4xl">
           <Typewriter
             options={{
