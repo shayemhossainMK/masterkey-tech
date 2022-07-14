@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="bg-gray-50 contact-container h-screen">
-      <div className="grid grid-cols-1 md:grid-cols-2 w-full px-0 md:px-28 py-28">
+      <div className="grid md:flex grid-cols-1 md:justify-between max-w-[800px] mx-auto py-28">
         <div className="text-center md:text-left">
           <input
             type="text"
@@ -47,7 +47,7 @@ const Contact = () => {
             "
           ></textarea>
 
-          <div className="text-center mt-4">
+          <div className="mt-4 text-center md:text-start">
             <button className="btn btn-secondary px-8 text-white">
               Submit
             </button>
