@@ -13,40 +13,9 @@ import Footer from "../../shared/Footer/Footer";
 import FooterTwo from "../../shared/FooterTwo/FooterTwo";
 import HomeServices from "../HomeService/HomeService";
 const HomeTwo = () => {
-  const settings = {
-    // dots: true,
-    // infinite: true,
-    // speed: 3000,
-    // slidesToShow: 1,
-    // slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 7000,
-    // pauseOnHover: false,
-    // infinite: true,
-    // speed: 3000,
-    // autoplay: true,
-    // autoplaySpeed: 7000,
-    // slidesToShow: 1,
-    // slidesToScroll: 1,
-    // pauseOnHover: false,
-  };
   return (
     <div>
-      <div className="overflow-hidden">
-        <Slider {...settings}>
-          <div>
-            <div>
-              <Home></Home>
-            </div>
-          </div>
-          <div>
-            <About></About>
-          </div>
-          <div>
-            <Contact></Contact>
-          </div>
-        </Slider>
-      </div>
+      <Home></Home>
       <div className="block md:hidden">
         <HomeServices></HomeServices>
       </div>

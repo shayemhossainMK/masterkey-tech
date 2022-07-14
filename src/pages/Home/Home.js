@@ -2,17 +2,13 @@ import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Typewriter from "typewriter-effect";
-import homeVideo from "../../images/homeCover.mp4";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="flex flex-col" style={{ height: "100vh" }}>
-      <video src={homeVideo} autoPlay loop muted></video>
-      <div className="containt px-2 md:px-10 mt-52 md:mt-36">
-        <h1 className="text-3xl mb-4  text-base-100 ">
-          We talk solutions that
-        </h1>
+    <div className="flex  home-container" style={{ height: "100vh" }}>
+      <div className="containt px-2 md:px-16 mt-52 md:mt-36">
+        <h1 className="text-3xl mb-4 text-base-100">We talk solutions that</h1>
         <span className="text-secondary text-4xl">
           <Typewriter
             options={{
