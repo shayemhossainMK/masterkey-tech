@@ -81,9 +81,9 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
+                {/* <li>
                   <CustomLink to="/partners">Our Partners</CustomLink>
-                </li>
+                </li> */}
                 <li>
                   <CustomLink to="/about">About Us</CustomLink>
                 </li>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="">
               <CustomLink to="/">
                 <img className="w-48 pl-10" src={logo} alt="" />
               </CustomLink>
@@ -106,9 +106,9 @@ const Navbar = () => {
               <li>
                 <CustomLink to="/services">What We Do</CustomLink>
               </li>
-              <li>
+              {/* <li>
                 <CustomLink to="/partners">Our Partners</CustomLink>
-              </li>
+              </li> */}
               <li>
                 <CustomLink to="/aboutcontainer">About Us</CustomLink>
               </li>
