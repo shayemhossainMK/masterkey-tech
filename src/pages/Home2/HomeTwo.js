@@ -9,9 +9,10 @@ import Services from "../Services/Services";
 
 import Home from "../Home/Home";
 import Spider from "../Spider/Spider";
-import Footer from "../../shared/Footer/Footer";
+
 import FooterTwo from "../../shared/FooterTwo/FooterTwo";
 import HomeServices from "../HomeService/HomeService";
+
 const HomeTwo = () => {
   return (
     <div>
