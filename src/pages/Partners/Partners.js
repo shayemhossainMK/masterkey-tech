@@ -14,7 +14,6 @@ const Partners = () => {
       });
   }, []);
 
-  console.log(brands);
   return (
     <div className="py-10 px-5 md:px-20 bg-gray-50">
       <div className="max-w-[1280px] mx-auto">
