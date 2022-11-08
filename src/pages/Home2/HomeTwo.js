@@ -12,6 +12,7 @@ import Spider from "../Spider/Spider";
 
 import FooterTwo from "../../shared/FooterTwo/FooterTwo";
 import HomeServices from "../HomeService/HomeService";
+import Partners from "../Partners/Partners";
 
 const HomeTwo = () => {
   return (
@@ -24,7 +25,7 @@ const HomeTwo = () => {
         <Spider></Spider>
       </div>
       <About></About>
-      <Contact></Contact>
+      <Partners></Partners>
       <FooterTwo></FooterTwo>
     </div>
   );

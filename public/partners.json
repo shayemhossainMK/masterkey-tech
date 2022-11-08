@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Esquire Electronics",
+        "img": "https://drive.google.com/uc?export=view&id=1UcmHG43rGP1vYk7Z_kz8QWAFoJ1xDHlT",
+        "homepageLink": "https://www.esquireelectronicsltd.com/",
+        "discount": "4.5"
+    },
+    {
+        "name": "Akjer Deal",
+        "img": "https://drive.google.com/uc?export=view&id=1mO626E5MNwgj3nEetUMrKhSxTZfzOoOp",
+        "homepageLink": "https://www.ajkerdeal.com/",
+        "discount": "10"
+    },
+    {
+        "name": "Crocodile",
+        "img": "https://drive.google.com/uc?export=view&id=16txuI6MSUTy9rkAIfSmfbmXke68FBPvN",
+        "homepageLink": "https://www.crocodilebd.com/",
+        "discount": "8"
+    },
+    {
+        "name": "Labu Flutes",
+        "img": "https://drive.google.com/uc?export=view&id=1ZOSJXUNXuTAMeJDWUtNqkVCyVzt1J1Ng",
+        "homepageLink": "https://www.labuflutes.com/",
+        "discount": "5"
+    },
+    {
+        "name": "Gear Exact",
+        "img": "https://drive.google.com/uc?export=view&id=13J8nuXfnxOWAwJtpA03G5OFEfw_NteIR",
+        "homepageLink": "https://www.gearexact.com/",
+        "discount": "5.5"
+    },
+    {
+        "name": "One Ummah BD",
+        "img": "https://drive.google.com/uc?export=view&id=1w75GliUxPcoHHyNAwsw_OdBdcG9j1fy0",
+        "homepageLink": "https://oneummahbd.com/",
+        "discount": "5"
+    },
+    {
+        "name": "Pink Flash BD",
+        "img": "https://drive.google.com/uc?export=view&id=1Bt4tSCVW5OKDM-OSZY7c9t9gwEL_Ux2s",
+        "homepageLink": "https://pinkflashbangladesh.com/",
+        "discount": "5-13"
+    },
+    {
+        "name": "Diabetic Store",
+        "img": "https://drive.google.com/uc?export=view&id=1mOgSrjOQi4ILKqEi068-6oTy5RtVuBbN",
+        "homepageLink": "https://diabetesstore.com.bd/",
+        "discount": "6.5"
+    },
+    {
+        "name": "Q Bazaar",
+        "img": "https://drive.google.com/uc?export=view&id=1Tb7Vzw9c1U_r8qMUUV40awJtquhWtZ0r",
+        "homepageLink": "https://www.qbazar.com.bd/",
+        "discount": "5"
+    }
+]
