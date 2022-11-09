@@ -26,7 +26,6 @@ const HomeTwo = () => {
       </div>
       <About></About>
       <Partners></Partners>
-      <FooterTwo></FooterTwo>
     </div>
   );
 };

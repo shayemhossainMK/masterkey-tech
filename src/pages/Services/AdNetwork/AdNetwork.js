@@ -18,24 +18,20 @@ const AdNetwork = () => {
         <SubNavbar></SubNavbar>
       </div>
       <div className="md:flex">
-        <div className="network-img h-full scroll-smooth md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+        <div className="h-full md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
           <img
-            className="w-full h-full mix-blend-overlay relative z-10 opacity-70"
+            className="w-full md:w-[500px] h-[650px] md:h-screen mix-blend-overlay relative z-10 opacity-70"
             src={photo2}
             alt=""
           />
-          <div className=" absolute top-56 z-20 px-5">
-            <div className="w-60 md:fixed mt-[-70px]">
-              <img className="w-28 mb-4" src={photo4} alt="" />
-            </div>
-            <h1 className="text-white text-4xl md:fixed ">
-              ADS NETWORK <br /> SUPPORT
+          <div className="absolute top-[15rem] md:top-56 z-20 px-5">
+            <h1 className="text-white text-4xl">
+              BUSINESS <br />
+              MANAGEMENT <br /> SOLUTIONS
             </h1>
-            <h4 className="text-xl text-white uppercase md:fixed mt-7 md:mt-32">
-              Service
-            </h4>
+            <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
             <progress
-              class="progress progress-warning w-56 md:fixed mt-2 md:mt-40 "
+              class="progress progress-warning w-56 "
               value="80"
               max="100"
             ></progress>

@@ -106,9 +106,9 @@ const Navbar = () => {
               <li>
                 <CustomLink to="/services">What We Do</CustomLink>
               </li>
-              {/* <li>
+              <li>
                 <CustomLink to="/partners">Our Partners</CustomLink>
-              </li> */}
+              </li>
               <li>
                 <CustomLink to="/aboutcontainer">About Us</CustomLink>
               </li>

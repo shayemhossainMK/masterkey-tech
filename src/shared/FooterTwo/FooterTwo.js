@@ -46,7 +46,9 @@ const FooterTwo = () => {
           <Link to="/services" class="link link-hover">
             What we do
           </Link>
-          <a class="link link-hover">Our Partners</a>
+          <Link to="/partners" class="link link-hover">
+            Our Partners
+          </Link>
         </div>
         <div>
           <span class="footer-title">Legal</span>

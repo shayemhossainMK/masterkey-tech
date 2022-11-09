@@ -15,21 +15,20 @@ const Ecommerce = () => {
       </div>
       <div>
         <div className="md:flex ">
-          <div className=" md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
+          <div className="h-full md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
             <img
-              className=" photo-conainer h-screen mix-blend-overlay relative z-10 opacity-70"
+              className="w-full md:w-[900px] h-[650px] md:h-screen mix-blend-overlay relative z-10 opacity-70"
               src={photo1}
               alt=""
             />
-            <div className=" absolute top-56 z-20 px-5">
-              <h1 className="text-white text-4xl md:fixed">
-                E-COMMERCE <br /> SOLUTIONS
+            <div className="absolute top-[15rem] md:top-56 z-20 px-5">
+              <h1 className="text-white text-4xl">
+                E-COMMERCE <br />
+                SOLUTIONS
               </h1>
-              <h4 className="text-xl text-white uppercase md:fixed mt-6 md:mt-32">
-                Service
-              </h4>
+              <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
               <progress
-                class="progress progress-warning w-56 md:fixed mt-2 md:mt-40 "
+                class="progress progress-warning w-56 "
                 value="50"
                 max="100"
               ></progress>

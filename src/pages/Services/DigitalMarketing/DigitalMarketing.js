@@ -21,19 +21,18 @@ const DigitalMarketing = () => {
       <div className="md:flex ">
         <div className="h-full md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
           <img
-            className=" img-container h-screen mix-blend-overlay relative z-10 opacity-70"
+            className="w-full md:w-[1050px] h-[650px] md:h-screen mix-blend-overlay relative z-10 opacity-70"
             src={photo2}
             alt=""
           />
-          <div className=" absolute top-56 z-20 px-5">
-            <h1 className="text-white text-4xl md:fixed">
-              DIGITAL <br /> MARKETING <br /> SOLUTIONS
+          <div className="absolute top-[15rem] md:top-56 z-20 px-5">
+            <h1 className="text-white text-4xl">
+              BUSINESS <br />
+              MANAGEMENT <br /> SOLUTIONS
             </h1>
-            <h4 className="text-xl text-white uppercase md:fixed mt-7 md:mt-36">
-              Service
-            </h4>
+            <h4 className="text-xl mt-10 text-white uppercase">Service</h4>
             <progress
-              class="progress progress-warning w-56 md:fixed  mt-3 md:mt-44 "
+              class="progress progress-warning w-56 "
               value="20"
               max="100"
             ></progress>

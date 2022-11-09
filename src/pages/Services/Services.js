@@ -78,7 +78,6 @@ const Services = () => {
           </Link>
         </div>
       </div>
-      <FooterTwo></FooterTwo>
     </div>
   );
 };

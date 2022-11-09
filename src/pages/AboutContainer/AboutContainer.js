@@ -6,7 +6,6 @@ const AboutContainer = () => {
   return (
     <div>
       <About></About>
-      <FooterTwo></FooterTwo>
     </div>
   );
 };

@@ -21,6 +21,8 @@ import AboutContainer from "./pages/AboutContainer/AboutContainer";
 import ContactContainer from "./pages/ContactContainer/ContactContainer";
 import HomeServices from "./pages/HomeService/HomeService";
 import Loading from "./shared/Loading/Loading";
+import Partners from "./pages/Partners/Partners";
+import FooterTwo from "./shared/FooterTwo/FooterTwo";
 
 function App() {
   const [loading, setLoding] = useState(true);
@@ -69,6 +71,7 @@ function App() {
               element={<PersonalBranding></PersonalBranding>}
             ></Route>
             <Route path="/bulksms" element={<BulkSms></BulkSms>}></Route>
+            <Route path="/partners" element={<Partners></Partners>}></Route>
             <Route path="/about" element={<About></About>}></Route>
             <Route
               path="/aboutcontainer"
@@ -80,6 +83,7 @@ function App() {
               element={<ContactContainer></ContactContainer>}
             ></Route>
           </Routes>
+          <FooterTwo></FooterTwo>
         </>
       )}
     </div>

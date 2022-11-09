@@ -54,7 +54,7 @@ const AffiliateMarketing = () => {
           <div className="md:flex ">
             <div className="h-full md:sticky top-0 z-10  bg-gradient-to-tl from-[#6A0DAD] to-gray-800">
               <img
-                className="w-full h-[650px] mix-blend-overlay relative z-10 opacity-70"
+                className="w-full md:w-[600px] h-[650px] md:h-screen mix-blend-overlay relative z-10 opacity-70"
                 src={photo3}
                 alt=""
               />

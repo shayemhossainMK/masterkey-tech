@@ -16,14 +16,14 @@ const BulkSms = () => {
         <div className="md:flex justify-center items-center h-screen">
           <div>
             <div className="px-5 py-10">
-              <h1 className="text-white text-4xl md:fixed md:mt-[-7rem]">
+              <h1 className="text-white text-4xl md:sticky md:mt-[-7rem]">
                 BULK SMS <br /> SERVICE
               </h1>
-              <h4 className="text-xl  text-white uppercase mt-6 md:mt-0 md:fixed">
+              <h4 className="text-xl  text-white uppercase mt-6 md:mt-0 md:sticky">
                 Service
               </h4>
               <progress
-                class="progress progress-warning w-56 md:fixed mt-3 md:mt-10 "
+                class="progress progress-warning w-56 md:sticky mt-3 md:mt-10 "
                 value="100"
                 max="100"
               ></progress>
@@ -31,7 +31,7 @@ const BulkSms = () => {
           </div>
           <div
             className="px-5 md:flex
-          flex-col items-center  md:px-36 mt-5"
+          flex-col items-center  md:px-36 mt-5 md:mt-20"
           >
             <div className=" md:ml-96">
               <p className="p-5 rounded-xl bg-base-100 mb-6">
